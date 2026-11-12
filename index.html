@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>JagX Pulse — The world, in one pulse.</title>
+<meta name="description" content="JagX Pulse is a JagX &amp; JRILICENSE newsroom covering world news, Africa, Nigeria, business, technology, sports, entertainment, health and science. Fast, factual, calm.">
+<meta name="theme-color" content="#0a0a0a">
+<meta name="color-scheme" content="dark">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/crest.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/crest.svg">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="JagX Pulse">
+<meta property="og:type" content="website">
+<meta property="og:title" content="JagX Pulse — The world, in one pulse.">
+<meta property="og:description" content="A JagX &amp; JRILICENSE newsroom. World, Africa, Nigeria, business, tech, sports, entertainment, health and science.">
+<meta property="og:image" content="images/science-cop31.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ===================== MASTHEAD ===================== -->
+<header class="masthead">
+  <div class="wrap masthead-inner">
+    <a class="brand" href="#/" aria-label="JagX Pulse home">
+      <svg class="crest" viewBox="0 0 40 46" fill="none" aria-hidden="true">
+        <path d="M20 1.6 37.4 7.4v15.9c0 9.6-6.9 17.6-17.4 21.1C9.5 40.9 2.6 32.9 2.6 23.3V7.4L20 1.6Z" stroke="#c4a574" stroke-width="1.6" fill="#0f0f0f"/>
+        <path d="M20 5.4 34 10v13.3c0 8-5.7 14.7-14 17.7-8.3-3-14-9.7-14-17.7V10l14-4.6Z" stroke="#8a7350" stroke-width="0.8" fill="none"/>
+        <path d="M13.6 15.2v11.4c0 3.1-1.9 4.9-4.6 4.9" stroke="#c4a574" stroke-width="2.1" stroke-linecap="round"/>
+        <path d="M18.4 23.4h3.1l2.1-5.2 2.6 10.4 2.2-5.2h3.2" stroke="#c4a574" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span class="brand-text">
+        <span class="brand-name">JagX <em>Pulse</em></span>
+        <span class="brand-tag">The world, in one pulse</span>
+      </span>
+    </a>
+
+    <span class="masthead-spacer"></span>
+
+    <div class="masthead-tools">
+      <button class="icon-btn" id="searchToggle" type="button" aria-label="Search stories" aria-expanded="false" aria-controls="searchPanel">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      </button>
+      <button class="install-btn" id="installBtn" type="button" hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 11 5 5 5-5"/><path d="M4 20h16"/></svg>
+        <span>Install app</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Search -->
+  <div class="search-panel" id="searchPanel">
+    <div class="wrap">
+      <div class="search-field">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input type="search" id="searchInput" placeholder="Search headlines, topics, sources…" autocomplete="off" aria-label="Search headlines">
+      </div>
+      <p class="search-hint" id="searchHint">Type to search across every story in this edition.</p>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== CATEGORY NAV ===================== -->
+<nav class="catnav" aria-label="News categories">
+  <div class="wrap catnav-inner" id="catNav"></div>
+</nav>
+
+<!-- ===================== STATUS BAR ===================== -->
+<div class="statusbar">
+  <div class="wrap statusbar-inner">
+    <span class="live-dot">Live edition</span>
+    <span class="sep">|</span>
+    <span>Last updated <strong id="lastUpdated">—</strong></span>
+    <span class="sep">|</span>
+    <span id="editionLabel">Edition v1</span>
+    <span class="sep">|</span>
+    <span id="storyCount">—</span>
+  </div>
+</div>
+
+<main id="main">
+  <!-- ===================== HOME VIEW ===================== -->
+  <div id="homeView">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <a class="lead" id="leadCard" href="#/"></a>
+        <aside class="hero-side">
+          <div class="rail-head">
+            <h2>Most read</h2>
+            <span>Today</span>
+          </div>
+          <ol class="mostread" id="mostRead"></ol>
+        </aside>
+      </div>
+    </section>
+
+    <!-- LATEST RAIL -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <span class="kicker">Just in</span>
+            <h2>Latest</h2>
+          </div>
+          <span class="section-note">Newest first · scroll for more</span>
+        </div>
+        <div class="latest-rail" id="latestRail"></div>
+      </div>
+    </section>
+
+    <!-- ALL STORIES -->
+    <section class="section" id="allStories">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <span class="kicker">The full edition</span>
+            <h2>All stories</h2>
+          </div>
+          <div class="filters" id="filters" role="group" aria-label="Filter by category"></div>
+        </div>
+        <div class="grid" id="storyGrid"></div>
+      </div>
+    </section>
+
+    <!-- ADVERTISE -->
+    <section class="wrap">
+      <div class="advertise">
+        <div>
+          <span class="kicker">Advertise with us</span>
+          <h2>Put your brand in front of a global, premium audience.</h2>
+          <p>JagX Pulse reaches readers across Africa, Europe and the Americas. We offer display placements, sponsored editions and branded content — all produced to the same editorial standard as our news. Talk to us about rates and availability.</p>
+        </div>
+        <div class="contact-list">
+          <a class="contact-item" href="mailto:jrilicense@gmail.com?subject=Advertising%20on%20JagX%20Pulse">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+            <span>
+              <span class="ci-label">Ads &amp; partnerships</span>
+              <span class="ci-value">jrilicense@gmail.com</span>
+            </span>
+          </a>
+          <a class="contact-item" href="https://wa.me/2349160654415" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.6 7.3L3 20.5l1.8-5.2A8.4 8.4 0 1 1 21 11.5Z"/></svg>
+            <span>
+              <span class="ci-label">JagX WhatsApp</span>
+              <span class="ci-value">+234 916 065 4415</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ===================== ARTICLE VIEW ===================== -->
+  <div id="articleView" hidden></div>
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <svg class="crest" viewBox="0 0 40 46" fill="none" aria-hidden="true">
+          <path d="M20 1.6 37.4 7.4v15.9c0 9.6-6.9 17.6-17.4 21.1C9.5 40.9 2.6 32.9 2.6 23.3V7.4L20 1.6Z" stroke="#c4a574" stroke-width="1.6" fill="#0f0f0f"/>
+          <path d="M20 5.4 34 10v13.3c0 8-5.7 14.7-14 17.7-8.3-3-14-9.7-14-17.7V10l14-4.6Z" stroke="#8a7350" stroke-width="0.8" fill="none"/>
+          <path d="M13.6 15.2v11.4c0 3.1-1.9 4.9-4.6 4.9" stroke="#c4a574" stroke-width="2.1" stroke-linecap="round"/>
+          <path d="M18.4 23.4h3.1l2.1-5.2 2.6 10.4 2.2-5.2h3.2" stroke="#c4a574" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div>
+          <h3>JagX <em>Pulse</em></h3>
+          <p>A JagX &amp; JRILICENSE newsroom. The world, in one pulse — fast, factual, calm coverage of the stories that matter.</p>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Sections</h4>
+        <ul>
+          <li><a href="#/category/World">World</a></li>
+          <li><a href="#/category/Africa">Africa</a></li>
+          <li><a href="#/category/Nigeria">Nigeria</a></li>
+          <li><a href="#/category/Business">Business</a></li>
+          <li><a href="#/category/Tech">Tech</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>More</h4>
+        <ul>
+          <li><a href="#/category/Sports">Sports</a></li>
+          <li><a href="#/category/Entertainment">Entertainment</a></li>
+          <li><a href="#/category/Health">Health</a></li>
+          <li><a href="#/category/Science">Science</a></li>
+          <li><a href="mailto:jrilicense@gmail.com">Advertise with us</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="licence">
+        <span class="jri-mark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 6v6c0 5 3.8 9.2 9 10 5.2-.8 9-5 9-10V6l-9-4Z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg>
+          JRILICENSE
+        </span>
+        <span>Licensed by JRILICENSE · © <span id="year">2026</span> JagX Pulse</span>
+      </div>
+      <div class="powered">Powered by <strong>JagX</strong> · Ads &amp; support: <a href="mailto:jrilicense@gmail.com" style="color:var(--gold)">jrilicense@gmail.com</a></div>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ==========================================================================
+   JagX Pulse — data + app
+   ========================================================================== */
+let STORIES = [];
+
+/* Stories are loaded from data/stories.json — one source of truth for the
+   edition, shared by the site and the next refresh. */
+async function loadStories() {
+  const res = await fetch("data/stories.json", { cache: "no-cache" });
+  if (!res.ok) throw new Error("stories.json " + res.status);
+  const data = await res.json();
+  STORIES = data.stories || [];
+  return data;
+}
+
+const CATEGORIES = ["World","Africa","Nigeria","Business","Tech","Sports","Entertainment","Health","Science"];
+const LAST_UPDATED = "2026-11-12T12:36:00+01:00";
+const EDITION = "v1";
+
+/* ---------- helpers ---------- */
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
+
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[c]));
+}
+
+const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+function fmtDate(iso) {
+  const d = new Date(iso);
+  const day = d.getDate();
+  const mon = MONTHS[d.getMonth()];
+  const yr = d.getFullYear();
+  const hh = String(d.getHours()).padStart(2, "0");
+  const mm = String(d.getMinutes()).padStart(2, "0");
+  return `${day} ${mon} ${yr} · ${hh}:${mm} WAT`;
+}
+
+function fmtShort(iso) {
+  const d = new Date(iso);
+  return `${d.getDate()} ${MONTHS[d.getMonth()]} ${d.getFullYear()}`;
+}
+
+function ageLabel(iso) {
+  const then = new Date(iso).getTime();
+  const now = new Date(LAST_UPDATED).getTime();
+  const mins = Math.round((now - then) / 60000);
+  if (mins < 1) return "just now";
+  if (mins < 60) return mins + " min ago";
+  const hrs = Math.round(mins / 60);
+  if (hrs < 24) return hrs + (hrs === 1 ? " hour ago" : " hours ago");
+  const days = Math.round(hrs / 24);
+  if (days < 7) return days + (days === 1 ? " day ago" : " days ago");
+  const wks = Math.round(days / 7);
+  return wks + (wks === 1 ? " week ago" : " weeks ago");
+}
+
+const byNewest = (a, b) => new Date(b.published) - new Date(a.published);
+
+/* ---------- state ---------- */
+let activeCategory = "All";
+let query = "";
+
+/* ---------- render: nav ---------- */
+function renderNav() {
+  const nav = $("#catNav");
+  const items = ["All", ...CATEGORIES];
+  nav.innerHTML = items.map(c =>
+    `<a href="#/${c === "All" ? "" : "category/" + c}" data-cat="${c}" class="${c === activeCategory ? "is-active" : ""}">${c}</a>`
+  ).join("");
+}
+
+/* ---------- render: filters ---------- */
+function renderFilters() {
+  const f = $("#filters");
+  const items = ["All", ...CATEGORIES];
+  f.innerHTML = items.map(c =>
+    `<button type="button" class="chip ${c === activeCategory ? "is-active" : ""}" data-cat="${c}">${c}</button>`
+  ).join("");
+  $$(".chip", f).forEach(btn => {
+    btn.addEventListener("click", () => {
+      activeCategory = btn.dataset.cat;
+      renderNav(); renderFilters(); renderGrid();
+      const el = $("#allStories");
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+}
+
+/* ---------- render: hero ---------- */
+function renderHero() {
+  const lead = STORIES.slice().sort(byNewest)[0];
+  $("#leadCard").href = "#/story/" + lead.slug;
+  $("#leadCard").innerHTML = `
+    <div class="lead-media">
+      <span class="tag on-image">${esc(lead.category)}</span>
+      <img src="${esc(lead.image)}" alt="${esc(lead.title)}" width="1200" height="675" fetchpriority="high">
+    </div>
+    <div class="lead-body">
+      <div class="meta">
+        <span class="src">${esc(lead.source)}</span>
+        <span class="dot">·</span>
+        <time datetime="${esc(lead.published)}">${fmtDate(lead.published)}</time>
+        <span class="dot">·</span>
+        <span>${ageLabel(lead.published)}</span>
+      </div>
+      <h1>${esc(lead.title)}</h1>
+      <p>${esc(lead.summary)}</p>
+      <div class="meta">
+        <span>Added ${fmtDate(lead.added)}</span>
+      </div>
+    </div>`;
+
+  const most = STORIES.slice().sort((a, b) => b.reads - a.reads).slice(0, 6);
+  $("#mostRead").innerHTML = most.map(s => `
+    <li>
+      <a href="#/story/${esc(s.slug)}">
+        <span>
+          <span class="mr-title">${esc(s.title)}</span>
+          <span class="mr-meta">${esc(s.category)} · ${esc(s.source)}</span>
+        </span>
+      </a>
+    </li>`).join("");
+}
+
+/* ---------- render: latest rail ---------- */
+function renderLatest() {
+  const latest = STORIES.slice().sort(byNewest).slice(0, 8);
+  $("#latestRail").innerHTML = latest.map(s => `
+    <a class="rail-card" href="#/story/${esc(s.slug)}">
+      <div class="thumb"><img src="${esc(s.image)}" alt="${esc(s.title)}" loading="lazy" width="600" height="375"></div>
+      <div class="body">
+        <span class="tag">${esc(s.category)}</span>
+        <h3>${esc(s.title)}</h3>
+        <div class="meta">
+          <span class="src">${esc(s.source)}</span>
+          <span class="dot">·</span>
+          <time datetime="${esc(s.published)}">${fmtShort(s.published)}</time>
+        </div>
+      </div>
+    </a>`).join("");
+}
+
+/* ---------- render: grid ---------- */
+function renderGrid() {
+  const grid = $("#storyGrid");
+  let list = STORIES.slice().sort(byNewest);
+
+  if (activeCategory !== "All") list = list.filter(s => s.category === activeCategory);
+
+  if (query.trim()) {
+    const q = query.trim().toLowerCase();
+    list = list.filter(s =>
+      (s.title + " " + s.summary + " " + s.standfirst + " " + s.category + " " + s.source + " " + s.body.join(" "))
+        .toLowerCase().includes(q)
+    );
+  }
+
+  if (!list.length) {
+    grid.innerHTML = `<div class="empty"><strong>No stories match that search.</strong>Try a different word, or clear the filter to see the full edition.</div>`;
+    return;
+  }
+
+  grid.innerHTML = list.map(s => `
+    <a class="card" href="#/story/${esc(s.slug)}">
+      <div class="thumb">
+        <span class="tag on-image">${esc(s.category)}</span>
+        <img src="${esc(s.image)}" alt="${esc(s.title)}" loading="lazy" width="600" height="375">
+      </div>
+      <div class="body">
+        <h3>${esc(s.title)}</h3>
+        <p>${esc(s.summary)}</p>
+        <div class="meta">
+          <span class="src">${esc(s.source)}</span>
+          <span class="dot">·</span>
+          <time datetime="${esc(s.published)}">${fmtShort(s.published)}</time>
+          <span class="dot">·</span>
+          <span>${ageLabel(s.published)}</span>
+        </div>
+      </div>
+    </a>`).join("");
+}
+
+/* ---------- render: article ---------- */
+function renderArticle(slug) {
+  const s = STORIES.find(x => x.slug === slug);
+  const view = $("#articleView");
+
+  if (!s) {
+    view.innerHTML = `<div class="wrap article-shell"><div class="empty"><strong>Story not found.</strong>This link may be from an older edition. <a href="#/" style="color:var(--gold)">Return to the front page</a>.</div></div>`;
+    return;
+  }
+
+  const related = STORIES.filter(x => x.category === s.category && x.slug !== s.slug).slice(0, 3);
+  const rel = related.length ? related : STORIES.filter(x => x.slug !== s.slug).slice(0, 3);
+
+  view.innerHTML = `
+    <div class="wrap article-shell">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="#/">Front page</a>
+        <span class="sep">/</span>
+        <a href="#/category/${esc(s.category)}">${esc(s.category)}</a>
+        <span class="sep">/</span>
+        <span>${esc(s.title.slice(0, 48))}${s.title.length > 48 ? "…" : ""}</span>
+      </nav>
+
+      <article>
+        <header class="article-head">
+          <span class="tag">${esc(s.category)}</span>
+          <h1>${esc(s.title)}</h1>
+          <p class="article-standfirst">${esc(s.standfirst)}</p>
+        </header>
+
+        <div class="article-meta-bar">
+          <span class="src">${esc(s.source)}</span>
+          <span class="stamp">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            Published <time datetime="${esc(s.published)}">${fmtDate(s.published)}</time>
+          </span>
+          <span class="stamp">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 11 5 5 5-5"/><path d="M4 20h16"/></svg>
+            Added to JagX Pulse <time datetime="${esc(s.added)}">${fmtDate(s.added)}</time>
+          </span>
+          <span>${ageLabel(s.published)}</span>
+        </div>
+
+        <figure class="article-figure">
+          <img src="${esc(s.image)}" alt="${esc(s.title)}" width="1200" height="675">
+          <figcaption>${esc(s.imageCaption)}</figcaption>
+        </figure>
+
+        <div class="article-body">
+          ${s.body.map(p => `<p>${esc(p)}</p>`).join("")}
+        </div>
+
+        <p class="source-note">
+          <strong>Source:</strong> ${esc(s.source)}. JagX Pulse cross-checks each story against at least two credible outlets before publishing. Where a detail could not be independently verified, we say so in the text.
+        </p>
+
+        <div class="article-foot">
+          <a class="btn gold" href="#/">← Back to front page</a>
+          <a class="btn" href="${esc(s.sourceUrl)}" target="_blank" rel="noopener">Read at source</a>
+          <button class="btn" type="button" id="shareBtn">Share story</button>
+        </div>
+      </article>
+
+      <section class="related">
+        <div class="section-head">
+          <div>
+            <span class="kicker">Keep reading</span>
+            <h2>More from <em>${esc(s.category)}</em></h2>
+          </div>
+        </div>
+        <div class="grid">
+          ${rel.map(r => `
+            <a class="card" href="#/story/${esc(r.slug)}">
+              <div class="thumb">
+                <span class="tag on-image">${esc(r.category)}</span>
+                <img src="${esc(r.image)}" alt="${esc(r.title)}" loading="lazy" width="600" height="375">
+              </div>
+              <div class="body">
+                <h3>${esc(r.title)}</h3>
+                <p>${esc(r.summary)}</p>
+                <div class="meta">
+                  <span class="src">${esc(r.source)}</span>
+                  <span class="dot">·</span>
+                  <time datetime="${esc(r.published)}">${fmtShort(r.published)}</time>
+                </div>
+              </div>
+            </a>`).join("")}
+        </div>
+      </section>
+    </div>`;
+
+  const shareBtn = $("#shareBtn");
+  if (shareBtn) {
+    shareBtn.addEventListener("click", async () => {
+      const url = location.href;
+      const data = { title: s.title, text: s.standfirst, url };
+      try {
+        if (navigator.share) { await navigator.share(data); return; }
+        await navigator.clipboard.writeText(url);
+        shareBtn.textContent = "Link copied";
+        setTimeout(() => { shareBtn.textContent = "Share story"; }, 2000);
+      } catch (e) {
+        shareBtn.textContent = "Copy failed";
+        setTimeout(() => { shareBtn.textContent = "Share story"; }, 2000);
+      }
+    });
+  }
+}
+
+/* ---------- router ---------- */
+function route() {
+  const hash = location.hash.replace(/^#/, "") || "/";
+  const home = $("#homeView");
+  const art = $("#articleView");
+
+  if (hash.startsWith("/story/")) {
+    const slug = hash.slice("/story/".length);
+    home.hidden = true;
+    art.hidden = false;
+    renderArticle(slug);
+    window.scrollTo({ top: 0, behavior: "instant" in window ? "instant" : "auto" });
+    document.title = (STORIES.find(s => s.slug === slug)?.title || "Story") + " — JagX Pulse";
+    return;
+  }
+
+  if (hash.startsWith("/category/")) {
+    const cat = decodeURIComponent(hash.slice("/category/".length));
+    activeCategory = CATEGORIES.includes(cat) ? cat : "All";
+  } else {
+    activeCategory = "All";
+  }
+
+  home.hidden = false;
+  art.hidden = true;
+  renderNav();
+  renderFilters();
+  renderGrid();
+  document.title = "JagX Pulse — The world, in one pulse.";
+}
+
+/* ---------- search ---------- */
+function initSearch() {
+  const toggle = $("#searchToggle");
+  const panel = $("#searchPanel");
+  const input = $("#searchInput");
+  const hint = $("#searchHint");
+
+  toggle.addEventListener("click", () => {
+    const open = panel.classList.toggle("is-open");
+    toggle.setAttribute("aria-expanded", String(open));
+    if (open) setTimeout(() => input.focus(), 60);
+  });
+
+  let t;
+  input.addEventListener("input", () => {
+    clearTimeout(t);
+    t = setTimeout(() => {
+      query = input.value;
+      if (location.hash.startsWith("#/story/")) location.hash = "#/";
+      renderGrid();
+      const n = $$("#storyGrid .card").length;
+      hint.textContent = query.trim()
+        ? `${n} ${n === 1 ? "story" : "stories"} matching “${query.trim()}”`
+        : "Type to search across every story in this edition.";
+      if (query.trim()) {
+        const el = $("#allStories");
+        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }, 180);
+  });
+
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape" && panel.classList.contains("is-open")) {
+      panel.classList.remove("is-open");
+      toggle.setAttribute("aria-expanded", "false");
+    }
+    if (e.key === "/" && document.activeElement !== input) {
+      e.preventDefault();
+      panel.classList.add("is-open");
+      toggle.setAttribute("aria-expanded", "true");
+      input.focus();
+    }
+  });
+}
+
+/* ---------- PWA install ---------- */
+let deferredPrompt = null;
+function initInstall() {
+  const btn = $("#installBtn");
+  window.addEventListener("beforeinstallprompt", e => {
+    e.preventDefault();
+    deferredPrompt = e;
+    btn.hidden = false;
+  });
+  btn.addEventListener("click", async () => {
+    if (!deferredPrompt) return;
+    deferredPrompt.prompt();
+    await deferredPrompt.userChoice;
+    deferredPrompt = null;
+    btn.hidden = true;
+  });
+  window.addEventListener("appinstalled", () => { btn.hidden = true; });
+}
+
+/* ---------- boot ---------- */
+async function boot() {
+  $("#year").textContent = new Date().getFullYear();
+  initSearch();
+  initInstall();
+
+  try {
+    const data = await loadStories();
+    $("#lastUpdated").textContent = fmtDate(data.lastUpdated || LAST_UPDATED);
+    $("#editionLabel").textContent = "Edition " + (data.edition || EDITION);
+    $("#storyCount").textContent = STORIES.length + " stories in this edition";
+  } catch (e) {
+    $("#lastUpdated").textContent = fmtDate(LAST_UPDATED);
+    $("#editionLabel").textContent = "Edition " + EDITION;
+    $("#storyCount").textContent = "Could not load this edition";
+    $("#storyGrid").innerHTML =
+      '<div class="empty"><strong>This edition could not load.</strong>Check your connection and reload the page.</div>';
+    return;
+  }
+
+  renderHero();
+  renderLatest();
+  renderNav();
+  renderFilters();
+  renderGrid();
+
+  window.addEventListener("hashchange", route);
+  route();
+
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("sw.js").catch(() => {});
+    });
+  }
+}
+
+document.addEventListener("DOMContentLoaded", boot);
+</script>
+</body>
+</html>
