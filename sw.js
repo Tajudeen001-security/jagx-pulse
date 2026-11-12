@@ -1,157 +1,86 @@
-/* ==========================================================================
-   JagX Pulse — service worker
-   Offline reading: caches the shell + every story image so a reader can
-   open the edition with no connection. Bump CACHE_VERSION on each edition.
-   ========================================================================== */
+/* JagX Pulse service worker — installable app + offline reading of the cached edition.
+   Bump VERSION on every refresh so readers pick up the new edition. */
+var VERSION = 'jagx-pulse-v2-e1';
 
-const CACHE_VERSION = "jagx-pulse-v1";
-const SHELL_CACHE = CACHE_VERSION + "-shell";
-const IMAGE_CACHE = CACHE_VERSION + "-images";
-
-/* The app shell — everything needed to render the edition offline. */
-const SHELL_ASSETS = [
-  "./",
-  "./index.html",
-  "./styles.css",
-  "./manifest.json",
-  "./data/stories.json",
-  "./icons/crest.svg",
-  "./icons/icon-maskable.svg"
+var SHELL = [
+  './',
+  './index.html',
+  './styles.css',
+  './app.js',
+  './manifest.json',
+  './icons/crest.svg',
+  './icons/icon-maskable.svg',
+  './data/stories.json'
 ];
 
-/* Every story image in this edition — served through the /images/* rewrite. */
-const STORY_IMAGES = [
-  "./images/world-nkorea.webp",
-  "./images/africa-drc.webp",
-  "./images/africa-sa.webp",
-  "./images/nigeria-borrowing.webp",
-  "./images/nigeria-inec.webp",
-  "./images/business-dangote.webp",
-  "./images/business-markets.webp",
-  "./images/tech-meta.webp",
-  "./images/sports-flamingos.webp",
-  "./images/ent-latingrammy.webp",
-  "./images/health-ebola.webp",
-  "./images/health-lenacapavir.webp",
-  "./images/science-cop31.webp"
-];
-
-/* Story images are bundled in /images/ in the repository. When a photo is not
-   bundled, vercel.json rewrites that path to the original source URL, so the
-   service worker follows the redirect and caches whatever the host returns. */
-
-/* ---------- install: pre-cache the shell and the images ---------- */
-self.addEventListener("install", event => {
-  event.waitUntil(
-    (async () => {
-      const shell = await caches.open(SHELL_CACHE);
-      // addAll fails the whole install if one file 404s — add individually instead
-      await Promise.all(
-        SHELL_ASSETS.map(url =>
-          shell.add(new Request(url, { cache: "reload" })).catch(() => null)
-        )
-      );
-      const imgs = await caches.open(IMAGE_CACHE);
-      await Promise.all(
-        STORY_IMAGES.map(url =>
-          imgs.add(new Request(url, { cache: "reload" })).catch(() => null)
-        )
-      );
-      await self.skipWaiting();
-    })()
+self.addEventListener('install', function (e) {
+  e.waitUntil(
+    caches.open(VERSION).then(function (c) {
+      return Promise.all(SHELL.map(function (u) {
+        return c.add(new Request(u, { cache: 'reload' })).catch(function () { return null; });
+      }));
+    }).then(function () { return self.skipWaiting(); })
   );
 });
 
-/* ---------- activate: drop caches from older editions ---------- */
-self.addEventListener("activate", event => {
-  event.waitUntil(
-    (async () => {
-      const keys = await caches.keys();
-      await Promise.all(
-        keys
-          .filter(k => k.startsWith("jagx-pulse-") && !k.startsWith(CACHE_VERSION))
-          .map(k => caches.delete(k))
-      );
-      if (self.registration.navigationPreload) {
-        await self.registration.navigationPreload.disable();
-      }
-      await self.clients.claim();
-    })()
+self.addEventListener('activate', function (e) {
+  e.waitUntil(
+    caches.keys().then(function (keys) {
+      return Promise.all(keys.map(function (k) {
+        return k === VERSION ? null : caches.delete(k);
+      }));
+    }).then(function () { return self.clients.claim(); })
   );
 });
 
-/* ---------- fetch strategy ---------- */
-self.addEventListener("fetch", event => {
-  const req = event.request;
+self.addEventListener('fetch', function (e) {
+  var req = e.request;
+  if (req.method !== 'GET') return;
 
-  // Only handle GETs on our own origin.
-  if (req.method !== "GET") return;
-  const url = new URL(req.url);
+  var url;
+  try { url = new URL(req.url); } catch (err) { return; }
   if (url.origin !== self.location.origin) return;
 
-  // Navigations: network first, fall back to the cached shell (offline reading).
-  if (req.mode === "navigate") {
-    event.respondWith(
-      (async () => {
-        try {
-          const fresh = await fetch(req);
-          const cache = await caches.open(SHELL_CACHE);
-          cache.put("./index.html", fresh.clone());
-          return fresh;
-        } catch (e) {
-          const cache = await caches.open(SHELL_CACHE);
-          return (
-            (await cache.match("./index.html")) ||
-            (await cache.match("./")) ||
-            new Response(
-              "<h1>JagX Pulse is offline</h1><p>Reconnect to load the latest edition.</p>",
-              { headers: { "Content-Type": "text/html; charset=utf-8" }, status: 200 }
-            )
-          );
-        }
-      })()
+  /* Edition data: network first, cached copy as the offline fallback. */
+  if (url.pathname.indexOf('/data/') !== -1) {
+    e.respondWith(
+      fetch(req).then(function (res) {
+        var copy = res.clone();
+        caches.open(VERSION).then(function (c) { c.put(req, copy); });
+        return res;
+      }).catch(function () {
+        return caches.match(req).then(function (r) {
+          return r || caches.match('./data/stories.json');
+        });
+      })
     );
     return;
   }
 
-  // Images: cache first — they never change within an edition.
-  if (req.destination === "image") {
-    event.respondWith(
-      (async () => {
-        const cache = await caches.open(IMAGE_CACHE);
-        const hit = await cache.match(req);
+  /* Photos and icons: cache first so the edition reads offline. */
+  if (/\.(webp|png|jpg|jpeg|svg|gif)$/i.test(url.pathname)) {
+    e.respondWith(
+      caches.match(req).then(function (hit) {
         if (hit) return hit;
-        try {
-          const fresh = await fetch(req);
-          if (fresh && fresh.status === 200) cache.put(req, fresh.clone());
-          return fresh;
-        } catch (e) {
-          return new Response("", { status: 504, statusText: "Offline" });
-        }
-      })()
+        return fetch(req).then(function (res) {
+          var copy = res.clone();
+          caches.open(VERSION).then(function (c) { c.put(req, copy); });
+          return res;
+        });
+      })
     );
     return;
   }
 
-  // Everything else (css, js, json, fonts): stale-while-revalidate.
-  event.respondWith(
-    (async () => {
-      const cache = await caches.open(SHELL_CACHE);
-      const hit = await cache.match(req);
-      const network = fetch(req)
-        .then(res => {
-          if (res && res.status === 200 && res.type === "basic") {
-            cache.put(req, res.clone());
-          }
-          return res;
-        })
-        .catch(() => null);
-      return hit || (await network) || new Response("", { status: 504, statusText: "Offline" });
-    })()
+  /* Shell: cache first, then network, then the cached home page. */
+  e.respondWith(
+    caches.match(req).then(function (hit) {
+      if (hit) return hit;
+      return fetch(req).then(function (res) {
+        var copy = res.clone();
+        caches.open(VERSION).then(function (c) { c.put(req, copy); });
+        return res;
+      }).catch(function () { return caches.match('./index.html'); });
+    })
   );
-});
-
-/* ---------- allow the page to trigger an update ---------- */
-self.addEventListener("message", event => {
-  if (event.data === "SKIP_WAITING") self.skipWaiting();
 });

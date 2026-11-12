@@ -1,8 +1,8 @@
 {
   "name": "JagX Pulse — The world, in one pulse.",
   "short_name": "JagX Pulse",
-  "description": "A JagX & JRILICENSE newsroom. World, Africa, Nigeria, business, technology, sports, entertainment, health and science — fast, factual, calm.",
-  "id": "/",
+  "description": "JagX Pulse — a JagX & JRILICENSE newsroom. World, Africa, Nigeria, business, tech, sports, entertainment, health and science. Every story carries its source, publication date and the date it was added.",
+  "id": "/jagx-pulse/",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -12,41 +12,16 @@
   "theme_color": "#0a0a0a",
   "lang": "en",
   "dir": "ltr",
-  "categories": ["news", "magazines", "education"],
+  "categories": ["news", "magazines"],
   "icons": [
-    {
-      "src": "icons/crest.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/icon-maskable.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "maskable"
-    }
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/crest.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
   ],
   "shortcuts": [
-    {
-      "name": "World",
-      "short_name": "World",
-      "url": "./index.html#/category/World"
-    },
-    {
-      "name": "Nigeria",
-      "short_name": "Nigeria",
-      "url": "./index.html#/category/Nigeria"
-    },
-    {
-      "name": "Business",
-      "short_name": "Business",
-      "url": "./index.html#/category/Business"
-    },
-    {
-      "name": "Sports",
-      "short_name": "Sports",
-      "url": "./index.html#/category/Sports"
-    }
+    { "name": "World", "url": "./index.html#/section/world" },
+    { "name": "Nigeria", "url": "./index.html#/section/nigeria" },
+    { "name": "Business", "url": "./index.html#/section/business" }
   ]
 }

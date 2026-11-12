@@ -1,89 +1,86 @@
-# JagX Pulse — The world, in one pulse.
+# JagX Pulse
 
-**A JagX & JRILICENSE newsroom.** Fast, factual, calm coverage of world news, Africa, Nigeria, business & markets, technology, sports, entertainment, health and science.
+**The world, in one pulse.** — a JagX & JRILICENSE newsroom.
 
-This repository is a **static site** — plain HTML, CSS and JavaScript. There is no server, no build step and no dependencies. Push it to GitHub, import it on Vercel, and it is live.
+A static, installable news site. No build step, no server, no dependencies: the files in this
+repository are the site. Deploy it anywhere that serves static files.
 
 ---
 
-## What's in here
+## What it is
 
-```
-.
-├── index.html          # The whole app: front page, category filters, search, article pages
-├── styles.css          # Design system — near-black #0a0a0a base, gold #c4a574 accent
-├── sw.js               # Service worker — offline reading + install
-├── manifest.json       # PWA manifest — home-screen install on Android / iOS / desktop
-├── vercel.json         # Vercel config — static build, image rewrites, caching + security headers
-├── data/
-│   └── stories.json    # The edition's stories — the single source of truth
-├── images/             # One real image per story
-└── icons/              # JagX crest app icons (SVG, any + maskable)
-```
+JagX Pulse carries world, Africa, Nigeria, business, technology, sport, entertainment, health and
+science reporting. Every story card shows a real photo, the source, the publication date **and**
+the date it was added to the site, so a reader always knows how old a story is. Older editions stay
+online with their original dates — nothing is deleted.
 
-## Features
+- **Front page** — hero lead story, category filters, search, a *Latest* rail and a *Most read* rail.
+- **Article pages** — full headline, the summary of what the story is about, the photo, the source
+  link, publication date, date added, and related stories from the same section.
+- **Installable PWA** — `manifest.json` + `sw.js`. Installs to the home screen on Android, iOS and
+  desktop, and reads the cached edition offline.
+- **Mobile-first** — 3 columns on desktop, 2 on tablet, 1 on phone.
 
-- **Hero lead story** with the newest headline, its summary, source and both dates.
-- **Category filters** — World, Africa, Nigeria, Business, Tech, Sports, Entertainment, Health, Science.
-- **Search** across every headline, summary and article body in the edition.
-- **Latest rail** — newest first, horizontally scrollable.
-- **Most read rail** — ranked by read count.
-- **Article pages** — full body, image with caption, source, publication date, date added, and related stories.
-- **Every card shows** a real image, the source, the publication date **and** the date it was added, so a reader can always tell how old a story is.
-- **Installable PWA** — add to home screen on Android, iOS or desktop; the edition reads offline once loaded.
-- **Advertise / Contact block** on every page → **jrilicense@gmail.com** and JagX WhatsApp **+234 916 065 4415**.
-- **Responsive** — mobile-first, works on phone, tablet and desktop.
+## Files
 
-## Dates
-
-Every story carries two timestamps:
-
-| Field | Meaning |
+| File | Purpose |
 |---|---|
-| `published` | When the source published the story |
-| `added` | When it was added to JagX Pulse |
+| `index.html` | The shell: masthead, rails, feed, article view, advertise block, footer |
+| `styles.css` | Near-black `#0a0a0a` + gold `#c4a574`, Fraunces + Figtree |
+| `app.js` | Loads the edition, renders sections/search/rails, hash routing, PWA install |
+| `data/stories.json` | **The edition** — the single source of truth for every story |
+| `sw.js` | Service worker: offline reading, cache versioning |
+| `manifest.json` | PWA manifest |
+| `icons/` | JagX crest (SVG) and app icons (PNG) |
+| `images/` | Story photos (WebP) |
+| `vercel.json` | Vercel config: clean URLs, cache + security headers. No build, no rewrites |
 
-Older stories are labelled with their age ("3 days ago") and are **never deleted** — readers can go back and read an earlier edition and see exactly when it ran.
+## The edition file
 
-## Images
+`data/stories.json` drives everything. Each story carries:
 
-Story photos live in `images/` as WebP. `vercel.json` also rewrites each `/images/*.webp` path to the original source photo, so a photo still resolves if a file is ever missing from the repo. To bundle a photo locally instead, drop the file into `images/` and delete its rewrite entry.
-
-## Running locally
-
-No build step. Serve the folder over HTTP (the service worker needs `http://` or `https://`, not `file://`):
-
-```bash
-python3 -m http.server 8000
-# then open http://localhost:8000
+```json
+{
+  "slug": "unique-url-slug",
+  "title": "Headline",
+  "summary": "Two to three sentences on what the story is about.",
+  "section": "world",
+  "sectionLabel": "World",
+  "source": "BBC News",
+  "url": "https://…",
+  "published": "2026-11-12T05:59:18+01:00",
+  "added": "2026-11-12T13:20:00+01:00",
+  "image": "images/slug.webp"
+}
 ```
 
-## Deploying to Vercel
+`published` is when the source published it. `added` is when it entered this edition. Both are
+shown on every card and article page.
 
-1. Push this repository to GitHub.
-2. Go to [vercel.com/new](https://vercel.com/new) and **Import** the repository.
-3. Framework preset: **Other**. Build command: **leave empty**. Output directory: **leave empty** (the site is at the repo root).
-4. Click **Deploy**. Vercel serves the static files and applies `vercel.json`.
+## Refresh schedule
 
-Every later `git push` to the default branch redeploys automatically.
+Seven editions a day — **06:00, 09:00, 12:00, 15:00, 18:00, 21:00 and 23:00 WAT** — roughly ten new
+stories per refresh, about seventy a day. Each refresh:
 
-## Refreshing the edition
+1. gathers new stories from the sources and cross-checks them,
+2. **appends** them to `data/stories.json` (older stories keep their original dates and stay visible),
+3. updates the `updated` / `updatedLabel` fields and the edition number,
+4. bumps `VERSION` in `sw.js` so installed apps pick up the new edition,
+5. redeploys and pushes to this repository.
 
-1. Gather the new stories and cross-check each against at least two credible sources.
-2. Add them to `data/stories.json`.
-3. Update `lastUpdated` and `edition` in `data/stories.json`.
-4. Bump `CACHE_VERSION` in `sw.js` so installed apps pick up the new edition.
-5. Keep every older story in place, with its original dates.
+## Deploying on Vercel
 
-## Editorial rules
+1. **vercel.com/new** → Import this repository.
+2. Framework preset: **Other**. Leave **Build command** and **Output directory** empty — the site is
+   at the repository root.
+3. **Deploy**.
 
-- Never fabricate a headline, date, source or image.
-- Cross-check each story against at least two credible outlets before publishing.
-- If a fact cannot be verified, say so in the article text or omit it.
-- No clickbait, no sensationalism, no invented quotes.
+Every later push to `main` redeploys automatically.
 
-## Licence
+## Contact
 
-Code and design © JagX Pulse. **Powered by JagX. Licensed by JRILICENSE.**
+Advertising, sponsorship and brand partnerships: **jrilicense@gmail.com** · WhatsApp **+234 916 065 4415**
 
-Advertising, syndication and support: **jrilicense@gmail.com**
+---
+
+Powered by **JagX** · Licensed by **JRILICENSE**
