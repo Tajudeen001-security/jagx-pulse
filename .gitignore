@@ -1,0 +1,31 @@
+# Dependencies (none — this is a static site, but keep the folder clean)
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+.vercel/
+.next/
+out/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Scratch
+scrape/
+*.tmp

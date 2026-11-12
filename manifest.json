@@ -1,0 +1,52 @@
+{
+  "name": "JagX Pulse — The world, in one pulse.",
+  "short_name": "JagX Pulse",
+  "description": "A JagX & JRILICENSE newsroom. World, Africa, Nigeria, business, technology, sports, entertainment, health and science — fast, factual, calm.",
+  "id": "/",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "any",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["news", "magazines", "education"],
+  "icons": [
+    {
+      "src": "icons/crest.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "World",
+      "short_name": "World",
+      "url": "./index.html#/category/World"
+    },
+    {
+      "name": "Nigeria",
+      "short_name": "Nigeria",
+      "url": "./index.html#/category/Nigeria"
+    },
+    {
+      "name": "Business",
+      "short_name": "Business",
+      "url": "./index.html#/category/Business"
+    },
+    {
+      "name": "Sports",
+      "short_name": "Sports",
+      "url": "./index.html#/category/Sports"
+    }
+  ]
+}
