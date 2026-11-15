@@ -33,6 +33,8 @@ online with their original dates — nothing is deleted.
 | `manifest.json` | PWA manifest |
 | `icons/` | JagX crest (SVG) and app icons (PNG) |
 | `images/` | Story photos (WebP) |
+| `images/ig/` | JPEG derivatives of every photo — Instagram only accepts JPEG |
+| `scripts/social.py` | Social pipeline: WebP→JPEG, caption composer, posted-ledger |
 | `vercel.json` | Vercel config: clean URLs, cache + security headers. No build, no rewrites |
 
 ## The edition file
@@ -59,14 +61,50 @@ shown on every card and article page.
 
 ## Refresh schedule
 
-Seven editions a day — **06:00, 09:00, 12:00, 15:00, 18:00, 21:00 and 23:00 WAT** — roughly ten new
-stories per refresh, about seventy a day. Each refresh:
+**Twenty-eight refreshes a day, every hour on the hour** (`0 * * * *`, WAT) — roughly 12 new
+stories per refresh, about 330 a day, building the archive toward **500 stories**. Each refresh:
 
-1. gathers new stories from the sources and cross-checks them,
+1. gathers new stories from the sources and cross-checks each across at least two,
 2. **appends** them to `data/stories.json` (older stories keep their original dates and stay visible),
 3. updates the `updated` / `updatedLabel` fields and the edition number,
 4. bumps `VERSION` in `sw.js` so installed apps pick up the new edition,
-5. redeploys and pushes to this repository.
+5. converts each new photo to JPEG for Instagram (`scripts/social.py convert --new`),
+6. posts every new story to **X** and **Instagram**,
+7. records the returned post ids in `data/stories.json` so nothing is ever posted twice,
+8. pushes to this repository, which redeploys Vercel automatically.
+
+## Social publishing
+
+Every story that goes on the site also goes out on the connected accounts:
+
+| Account | Handle | What it posts |
+|---|---|---|
+| X (Twitter) | [@jagxjrilicense](https://x.com/jagxjrilicense) | Headline, one-sentence summary, section, source link — under 280 weighted characters |
+| Instagram | [@jagxpulse](https://www.instagram.com/jagxpulse/) | The story photo as a feed image, with headline, summary, source credit and site link |
+
+`scripts/social.py` does the deterministic work so nothing is guessed:
+
+```bash
+python3 scripts/social.py convert --new    # WebP -> JPEG for new stories
+python3 scripts/social.py captions --new   # ready-to-post captions + public image URLs
+python3 scripts/social.py mark --slug S --x ID --ig ID   # record post ids
+python3 scripts/social.py status           # edition, posted counts, distance to 500
+```
+
+**Why JPEG derivatives exist:** Instagram's Graph API only accepts JPEG, and it must fetch the
+image from a **public** URL. The `/sites/` artifact URLs are token-gated (403 to an anonymous
+fetcher), so the JPEGs are committed to this public repo and served by Vercel at
+`https://jagx-pulse.vercel.app/images/ig/<slug>.jpg`. That is the URL Meta fetches.
+
+**Double-posting is prevented by the ledger**, not by memory: a story with a `tweetId` is skipped
+on X, and one with an `igMediaId` is skipped on Instagram.
+
+### Instagram limits
+
+Instagram allows **100 API-published posts per rolling 24 hours** per account. At 28 refreshes a
+run posting every story would exceed that, so the runbook caps Instagram at **3 posts per refresh**
+(84/day), choosing the lead story plus the strongest sports and Nigeria stories. X has no such
+practical cap at this volume.
 
 ## Deploying on Vercel
 
