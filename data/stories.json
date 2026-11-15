@@ -1,7 +1,7 @@
 {
-  "edition": 6,
-  "updated": "2026-11-15T12:20:00+01:00",
-  "updatedLabel": "15 Nov 2026 · 12:20 WAT",
+  "edition": 7,
+  "updated": "2026-11-15T16:20:00+01:00",
+  "updatedLabel": "15 Nov 2026 · 16:20 WAT",
   "refreshSchedule": "7 editions a day · 06:00, 09:00, 12:00, 15:00, 18:00, 21:00, 23:00 WAT",
   "stories": [
     {
@@ -2447,6 +2447,162 @@
       "published": "2026-11-04T17:00:00+00:00",
       "added": "2026-11-15T12:20:00+01:00",
       "image": "images/stanford-brain-activity-predicts-alzheimers.webp"
+    },
+    {
+      "slug": "peltola-likely-wins-alaska-senate-race",
+      "section": "world",
+      "sectionLabel": "World",
+      "title": "Democrat Mary Peltola is likely to win Alaska’s US Senate race, NBC News projects",
+      "summary": "NBC News’ Decision Desk has characterised the Alaska Senate race as likely Democratic, with Republican incumbent Dan Sullivan trailing Peltola and both candidates below 50% of first-choice votes. The latest unofficial count from the Alaska Division of Elections put Peltola at 50.1%, more than 11,000 votes ahead, with ranked-choice tabulation due on 18 November. If she wins, Democrats would hold a 56-44 Senate majority next year.",
+      "source": "NBC News",
+      "url": "https://www.nbcnews.com/politics/2026-election/democrat-mary-peltola-likely-win-alaska-senate-race-rcna608673",
+      "published": "2026-11-14T20:52:00+00:00",
+      "added": "2026-11-15T16:20:00+01:00",
+      "image": "images/peltola-likely-wins-alaska-senate-race.webp"
+    },
+    {
+      "slug": "kenya-probes-violent-dadaab-refugee-protests",
+      "section": "africa",
+      "sectionLabel": "Africa",
+      "title": "Kenya probes violent refugee protests at the Dadaab complex",
+      "summary": "Kenya’s Department of Refugee Services said protesters damaged its offices, stole government equipment and broke into nearby businesses during confrontations with security personnel at the Dadaab refugee complex. The unrest erupted on Saturday morning at the Hagadera camp in Garissa County after refugee youths opposed plans to build a modern market on an open field. Dadaab hosts more than 438,000 refugees and asylum-seekers, nearly 97% of them from Somalia, according to UNHCR.",
+      "source": "Anadolu Agency",
+      "url": "https://aa.com.tr/en/africa/kenya-probes-violent-refugee-protests-at-one-of-the-worlds-largest-refugee-camps/4125798",
+      "published": "2026-11-15T09:00:00+00:00",
+      "added": "2026-11-15T16:20:00+01:00",
+      "image": "images/kenya-probes-violent-dadaab-refugee-protests.webp"
+    },
+    {
+      "slug": "uganda-denies-al-shabaab-killed-soldiers-somalia",
+      "section": "africa",
+      "sectionLabel": "Africa",
+      "title": "Uganda rejects al-Shabaab claims its soldiers were killed in Somalia",
+      "summary": "Uganda’s military has rejected online reports claiming its soldiers were attacked and killed in Somalia, accusing al-Shabaab of spreading propaganda. The claims surfaced during a sensitive transition: earlier in November Uganda announced a phased withdrawal from Somalia, ending nearly two decades of deployment, to be completed by the end of 2027. The UPDF and the African Union mission have been urged to publish verifiable updates on the drawdown.",
+      "source": "DW Africa",
+      "url": "https://www.modernghana.com/news/1544689/uganda-rejects-reports-that-soldiers-were-killed.html",
+      "published": "2026-11-14T10:35:00+00:00",
+      "added": "2026-11-15T16:20:00+01:00",
+      "image": "images/uganda-denies-al-shabaab-killed-soldiers-somalia.webp"
+    },
+    {
+      "slug": "serap-gives-inec-seven-days-prosecute-electoral-violence",
+      "section": "nigeria",
+      "sectionLabel": "Nigeria",
+      "title": "SERAP gives INEC seven days to prosecute electoral violence suspects",
+      "summary": "The Socio-Economic Rights and Accountability Project has given INEC Chairman Professor Joash Amupitan seven days to prosecute suspects arrested over electoral and political violence, or face legal action. In a letter dated 14 November, SERAP asked the commission to obtain case files and investigation materials from the Nigeria Police Force and initiate prosecutions under the Electoral Act 2026. The demand follows reported incidents since 2027 campaign season began, including an attack on NDC members in Oregun, Lagos, on 12 November.",
+      "source": "Channels Television",
+      "url": "https://www.channelstv.com/2026/11/15/2027-serap-gives-inec-seven-days-to-prosecute-electoral-violence-suspects",
+      "published": "2026-11-15T11:30:00+00:00",
+      "added": "2026-11-15T16:20:00+01:00",
+      "image": "images/serap-gives-inec-seven-days-prosecute-electoral-violence.webp"
+    },
+    {
+      "slug": "kano-yusuf-presents-1-107-trillion-2027-budget",
+      "section": "nigeria",
+      "sectionLabel": "Nigeria",
+      "title": "Kano’s Yusuf presents ₦1.107 trillion 2027 budget",
+      "summary": "Kano State Governor Abba Kabir Yusuf has presented a ₦1.107 trillion budget for the 2027 fiscal year to the State House of Assembly. The proposal allocates about ₦76.9 billion to capital expenditure and roughly ₦400.1 billion to recurrent spending. It is the state’s first budget above the one-trillion-naira mark.",
+      "source": "Northern Magazine",
+      "url": "https://www.instagram.com/reel/DfnWwyCxQ8u",
+      "published": "2026-11-11T14:00:00+00:00",
+      "added": "2026-11-15T16:20:00+01:00",
+      "image": "images/kano-yusuf-presents-1-107-trillion-2027-budget.webp"
+    },
+    {
+      "slug": "anthropic-sets-ipo-price-range-70-to-78",
+      "section": "business",
+      "sectionLabel": "Business",
+      "title": "Anthropic sets IPO price range of $70 to $78 ahead of Nasdaq listing",
+      "summary": "Anthropic will offer 825 million Class A shares at $70 to $78 apiece, according to an amended registration statement filed with the SEC on 10 November. At the top of the range the offering would raise $64.35 billion and value the Claude developer at up to $1.405 trillion on a fully diluted basis. CNBC, citing people familiar with the plans, reported the company expects to price on 18 November and begin trading on Nasdaq under the ticker ANT on 19 November.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html",
+      "published": "2026-11-10T15:15:00+00:00",
+      "added": "2026-11-15T16:20:00+01:00",
+      "image": "images/anthropic-sets-ipo-price-range-70-to-78.webp"
+    },
+    {
+      "slug": "nvidia-all-hands-meeting-november-18-kress",
+      "section": "tech",
+      "sectionLabel": "Tech",
+      "title": "Nvidia sets 18 November all-hands as interim CEO Kress addresses staff",
+      "summary": "Nvidia will hold a company-wide meeting on 18 November at 9am Pacific, its first since Colette Kress was named interim CEO after founder Jensen Huang resigned on 12 November. Kress told employees in an internal memo that leadership would share more about the company’s future at the meeting, which lands a day after Nvidia reports third-quarter results on 17 November. Board chairman Harvey Jones said the search for a permanent CEO will consider both internal and external candidates.",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/11/12/nvidia-interim-ceo-colette-kress-wont-hold-an-all-hands-for-nearly-a-week-after-jensen-huangs-ouster",
+      "published": "2026-11-12T18:00:00+00:00",
+      "added": "2026-11-15T16:20:00+01:00",
+      "image": "images/nvidia-all-hands-meeting-november-18-kress.webp"
+    },
+    {
+      "slug": "australia-beat-new-zealand-32-12-rugby-league-world-cup",
+      "section": "sports",
+      "sectionLabel": "Sports",
+      "title": "Australia beat New Zealand 32-12 to win a fourth straight Rugby League World Cup",
+      "summary": "Australia defeated New Zealand 32-12 in the men’s Rugby League World Cup final at Suncorp Stadium in Brisbane, leading 24-6 at halftime. It is Australia’s 13th world title from 17 tournaments and their fourth in succession, extending a run of 10 wins in the last 11 World Cups. Keaon Koloamatangi and Reece Walsh were among those celebrating after Jack Bostock crossed for a try.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.com/sport/rugby-league/live/cqx2z52p671wt",
+      "published": "2026-11-15T10:31:00+00:00",
+      "added": "2026-11-15T16:20:00+01:00",
+      "image": "images/australia-beat-new-zealand-32-12-rugby-league-world-cup.webp"
+    },
+    {
+      "slug": "jillaroos-win-womens-rugby-league-world-cup",
+      "section": "sports",
+      "sectionLabel": "Sports",
+      "title": "Jillaroos defend Women’s Rugby League World Cup with win over Kiwi Ferns",
+      "summary": "Australia’s Jillaroos won the 2026 Women’s Rugby League World Cup final against New Zealand at Suncorp Stadium, their fourth consecutive title. Winger Jaime Chapman scored a first-half hat-trick as Australia took control early, and captain Isabelle Kelly lifted the trophy. New Zealand’s only second-half points came through Mackenzie Wiki.",
+      "source": "Fox League",
+      "url": "https://www.youtube.com/watch?v=1cfX_ixTlsg",
+      "published": "2026-11-14T09:00:00+00:00",
+      "added": "2026-11-15T16:20:00+01:00",
+      "image": "images/jillaroos-win-womens-rugby-league-world-cup.webp"
+    },
+    {
+      "slug": "rock-and-roll-hall-of-fame-2026-induction-ceremony",
+      "section": "entertainment",
+      "sectionLabel": "Entertainment",
+      "title": "Rock & Roll Hall of Fame inducts Phil Collins, Oasis, Sade and Wu-Tang Clan",
+      "summary": "The 2026 Rock & Roll Hall of Fame induction ceremony was held on 14 November at the Peacock Theater in Los Angeles, honouring Phil Collins, Billy Idol, Iron Maiden, Joy Division/New Order, Oasis, Sade, Luther Vandross and Wu-Tang Clan. MC Lyte accepted the award for musical excellence, and Usher performed during the ceremony. ABC will broadcast the ceremony as a primetime special on 8 December, with Disney+ streaming it the following day.",
+      "source": "AP News",
+      "url": "https://apnews.com/article/rock-roll-hall-of-fame-inductees-2026-3171abbc75a9529119a39762fb8ddbd5",
+      "published": "2026-11-15T04:00:00+00:00",
+      "added": "2026-11-15T16:20:00+01:00",
+      "image": "images/rock-and-roll-hall-of-fame-2026-induction-ceremony.webp"
+    },
+    {
+      "slug": "kano-confirms-12-diphtheria-cases-first-ladys-college",
+      "section": "health",
+      "sectionLabel": "Health",
+      "title": "Kano confirms 12 diphtheria cases at First Lady’s College boarding school",
+      "summary": "Health authorities in Kano State have confirmed 12 cases of diphtheria at First Lady’s College in Mariri, Kumbotso Local Government Area, and tested 313 suspected cases. The outbreak was detected at the boarding school, which has more than 2,000 students, prompting the Kano State Centre for Disease Control to launch an emergency response. One student with severe symptoms was taken to the Infectious Diseases Hospital in Kano while others were treated on site.",
+      "source": "Daily Post Nigeria",
+      "url": "https://dailypost.ng/2026/11/13/diphtheria-outbreak-hits-kano-school-with-12-confirmed-cases",
+      "published": "2026-11-13T12:00:00+00:00",
+      "added": "2026-11-15T16:20:00+01:00",
+      "image": "images/kano-confirms-12-diphtheria-cases-first-ladys-college.webp"
+    },
+    {
+      "slug": "coffee-waste-into-biodiesel-fuel-study",
+      "section": "science",
+      "sectionLabel": "Science",
+      "title": "Scientists find a simple route from spent coffee grounds to biodiesel",
+      "summary": "Researchers at Universitat Rovira i Virgili have identified the conditions for efficiently extracting oil from spent coffee grounds while preserving the remaining biomass for further processing. The extracted oil can serve as feedstock for biodiesel, while the residual lignocellulosic material can be converted into bioethanol, lactic acid and ingredients for sustainable aviation fuel. The work was published in a peer-reviewed journal and reported by ScienceDaily on 14 November.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112025544.htm",
+      "published": "2026-11-14T15:00:00+00:00",
+      "added": "2026-11-15T16:20:00+01:00",
+      "image": "images/coffee-waste-into-biodiesel-fuel-study.webp"
+    },
+    {
+      "slug": "putin-lets-europeans-join-ukraine-peace-talks",
+      "section": "world",
+      "sectionLabel": "World",
+      "title": "Putin agrees to let European representatives join Ukraine peace talks",
+      "summary": "President Vladimir Putin agreed to let European representatives join the next round of Ukraine peace talks, a US envoy said, after Russia, Ukraine and the United States held a round in Abu Dhabi. The EU settled on a five-nation group to speak for Europe at the talks, while the Kremlin said it would be open to European participation if it saw genuine intent to contribute. A senior Ukrainian official said territory could be discussed only at leaders’ level and only alongside security guarantees.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/europe/russia-says-europeans-can-join-ukraine-peace-talks-if-they-show-readiness-2026-11-13",
+      "published": "2026-11-13T16:00:00+00:00",
+      "added": "2026-11-15T16:20:00+01:00",
+      "image": "images/putin-lets-europeans-join-ukraine-peace-talks.webp"
     }
   ]
 }
