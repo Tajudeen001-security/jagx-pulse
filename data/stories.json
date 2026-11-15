@@ -1,7 +1,7 @@
 {
- "edition": 2,
- "updated": "2026-11-14T23:03:35.156213+01:00",
- "updatedLabel": "14 Nov 2026 · 23:03 WAT",
+ "edition": 3,
+ "updated": "2026-11-15T06:06:43.896725+01:00",
+ "updatedLabel": "15 Nov 2026 · 06:06 WAT",
  "refreshSchedule": "7 editions a day · 06:00, 09:00, 12:00, 15:00, 18:00, 21:00, 23:00 WAT",
  "stories": [
   {
@@ -1741,6 +1741,150 @@
    "published": "2026-09-29T15:09:43+01:00",
    "added": "2026-11-12T13:22:29.562295+01:00",
    "image": "images/wash-dog-bite-for-15-minutes-to-prevent-rabies-vet-advises.webp"
+  },
+  {
+   "slug": "irgc-claims-strike-us-radar-bahrain",
+   "section": "world",
+   "sectionLabel": "World",
+   "title": "IRGC claims it destroyed a US early-warning radar in Bahrain",
+   "summary": "Iran's Islamic Revolutionary Guard Corps said its aerospace forces struck and destroyed a US early-warning radar installation in Bahrain, describing the operation as retaliation for an air strike on a telecommunications tower in the port town of Sirik. The claim was carried by IRGC-affiliated media and has not been independently verified; neither Washington nor Manama commented immediately. Bahrain issued a second alert of a potential threat as the exchange widened beyond the Strait of Hormuz.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status",
+   "published": "2026-11-15T04:45:00+01:00",
+   "added": "2026-11-15T06:06:43.896725+01:00",
+   "image": "images/irgc-claims-strike-us-radar-bahrain.webp"
+  },
+  {
+   "slug": "italy-fines-meta-805m-android-gallery-photos",
+   "section": "tech",
+   "sectionLabel": "Tech",
+   "title": "Italy fines Meta €805m over access to Android users' photos",
+   "summary": "Italy's data protection authority fined Meta Platforms €805 million ($887 million) for using photos and videos from Android users' galleries on Facebook without specific consent or adequate disclosure. Investigators found the feature, which suggests gallery content for users to post, was enabled by default and covered by a single broad permission. Meta has 60 days to disable it by default and seek separate consent, and the company challenged Italy's jurisdiction.",
+   "source": "AP",
+   "url": "https://apnews.com/article/italy-meta-android-facebook-feature-9b3073c52464d5cd0e8facbc57285194",
+   "published": "2026-11-14T12:53:00+01:00",
+   "added": "2026-11-15T06:06:43.896725+01:00",
+   "image": "images/italy-fines-meta-805m-android-gallery-photos.webp"
+  },
+  {
+   "slug": "philippines-carmelle-wins-eurovision-asia",
+   "section": "entertainment",
+   "sectionLabel": "Entertainment",
+   "title": "Philippines' Carmelle wins the first Eurovision Song Contest Asia",
+   "summary": "Filipino singer Carmelle won the inaugural Eurovision Song Contest Asia in Bangkok with a performance of her dance-pop song \"Sobra-Sobra\", taking 211 points. The 19-year-old beat 10 other acts in the grand final, with the result decided by national juries and viewers worldwide. A Thai duo finished second and Vietnam's Tóc Tiên third, as the 70-year-old contest expanded beyond Europe for the first time.",
+   "source": "AP",
+   "url": "https://apnews.com/article/thailand-eurovision-asia-2026-carmelle-winner-099ca558c4638949e637d3a8f8061d6d",
+   "published": "2026-11-14T18:30:00+01:00",
+   "added": "2026-11-15T06:06:43.896725+01:00",
+   "image": "images/philippines-carmelle-wins-eurovision-asia.webp"
+  },
+  {
+   "slug": "wales-beat-all-blacks-first-time-since-1953",
+   "section": "sports",
+   "sectionLabel": "Sports",
+   "title": "Wales stun New Zealand 35-28 for first win over All Blacks since 1953",
+   "summary": "Wales beat New Zealand 35-28 in Cardiff for their first victory over the All Blacks in 73 years, built on tries from Tomos Williams, Dewi Lake, Archie Griffin, Eddie James and Louis Rees-Zammit. Wales led 21-7 at half-time before New Zealand cut the gap to seven, and the hosts repelled wave after wave of attack to hold on. It is one of the biggest upsets of the autumn internationals.",
+   "source": "Sky Sports",
+   "url": "https://www.skysports.com/rugby-union/news/13612202/nations-championship-wales-35-28-new-zealand-hosts-display-immense-defence-to-pull-off-first-win-vs-all-blacks-since-1953",
+   "published": "2026-11-14T16:25:00+00:00",
+   "added": "2026-11-15T06:06:43.896725+01:00",
+   "image": "images/wales-beat-all-blacks-first-time-since-1953.webp"
+  },
+  {
+   "slug": "svitolina-andreeva-wta-finals-title-match",
+   "section": "sports",
+   "sectionLabel": "Sports",
+   "title": "Svitolina sets up WTA Finals title match against Andreeva",
+   "summary": "Elina Svitolina dropped just three games against Linda Noskova to reach the FAGE WTA Finals championship match at Indian Wells, while Mirra Andreeva knocked out Jessica Pegula to reach her first final. Andreeva had already beaten Svitolina in straight sets during group play, saving all six break points she faced. The final pits the world number three against a former champion chasing her biggest title in years.",
+   "source": "WTA",
+   "url": "https://www.wtatennis.com/videos/4609204/andreeva-knocks-out-pegula-to-secure-spot-in-fage-wta-finals-championship",
+   "published": "2026-11-15T01:00:00+01:00",
+   "added": "2026-11-15T06:06:43.896725+01:00",
+   "image": "images/svitolina-andreeva-wta-finals-title-match.webp"
+  },
+  {
+   "slug": "portugal-humbled-1-4-denmark-without-ronaldo",
+   "section": "sports",
+   "sectionLabel": "Sports",
+   "title": "Portugal thrashed 4-1 by Denmark in first game since Ronaldo retired",
+   "summary": "Portugal lost 4-1 to Denmark in Braga in their first match since Cristiano Ronaldo announced his international retirement, with Rasmus Hojlund scoring twice in eight minutes early in the second half. Pierre-Emile Hojbjerg converted a penalty and Joachim Andersen headed a fourth before Bernardo Silva pulled one back in stoppage time. Every Portugal player and mascot wore 'Ronaldo 7' shirts in tribute before kick-off.",
+   "source": "BBC Sport",
+   "url": "https://sports.yahoo.com/articles/portugal-humbled-first-game-since-220543680.html",
+   "published": "2026-11-14T22:00:00+01:00",
+   "added": "2026-11-15T06:06:43.896725+01:00",
+   "image": "images/portugal-humbled-1-4-denmark-without-ronaldo.webp"
+  },
+  {
+   "slug": "naira-parallel-rate-1445-gap-widens",
+   "section": "business",
+   "sectionLabel": "Business",
+   "title": "Naira weakens to N1,445/$ in parallel market as official gap widens",
+   "summary": "The naira fell to N1,445 per dollar in the parallel market, down from N1,430 the previous day, widening the gap with the official window to N86.50. At the Nigerian Foreign Exchange Market the currency actually firmed to N1,358.50/$, so the two rates moved in opposite directions. Bureau de Change operators in Abuja attributed the parallel pressure to demand that cannot be documented through official channels.",
+   "source": "Nairametrics",
+   "url": "https://www.linkedin.com/posts/nairametrics_the-naira-weakened-to-n1445-per-dollar-in-activity-7526931216508567553-UV_8",
+   "published": "2026-11-13T06:13:00+01:00",
+   "added": "2026-11-15T06:06:43.896725+01:00",
+   "image": "images/naira-parallel-rate-1445-gap-widens.webp"
+  },
+  {
+   "slug": "nyana-rooiwalensis-dinosaur-south-africa",
+   "section": "science",
+   "sectionLabel": "Science",
+   "title": "New dinosaur species identified from near-complete South African skull",
+   "summary": "Paleontologists have named Nyana rooiwalensis, a dinosaur that lived about 220 million years ago in what is now South Africa's Eastern Cape, from a 21.3cm juvenile skull found near Qhemegha village in 2018. Despite being roughly three years old the animal already weighed about 400kg and walked on two legs, suggesting rapid growth arose early in sauropodomorph evolution. The find is one of the most complete dinosaur skulls from this period on the southern continents.",
+   "source": "Phys.org",
+   "url": "https://phys.org/news/2026-11-newly-south-african-dinosaur-heavyweight.html",
+   "published": "2026-11-13T15:00:00+01:00",
+   "added": "2026-11-15T06:06:43.896725+01:00",
+   "image": "images/nyana-rooiwalensis-dinosaur-south-africa.webp"
+  },
+  {
+   "slug": "south-africa-coalition-talks-136-municipalities",
+   "section": "africa",
+   "sectionLabel": "Africa",
+   "title": "South Africa faces coalition talks in 136 municipalities after local elections",
+   "summary": "South Africa's electoral commission declared the 2026 local government elections free and fair, with the ANC on 30.76% nationally and 3,246 council seats, followed by the DA on 24.64% and the MK Party on 9.76%. Only 74 of 213 municipalities produced an outright majority, leaving 136 needing coalition arrangements, including the metros of Johannesburg, Tshwane and Ekurhuleni. President Cyril Ramaphosa said political differences should not stand in the way of cooperation.",
+   "source": "eNCA",
+   "url": "https://www.youtube.com/watch?v=68iiyobsSRY",
+   "published": "2026-11-09T18:00:00+01:00",
+   "added": "2026-11-15T06:06:43.896725+01:00",
+   "image": "images/south-africa-coalition-talks-136-municipalities.webp"
+  },
+  {
+   "slug": "pope-leo-andes-mass-santa-cruz-succhabamba",
+   "section": "world",
+   "sectionLabel": "World",
+   "title": "Pope Leo XIV celebrates Mass in remote Andes town he once served",
+   "summary": "Pope Leo XIV travelled by helicopter to Santa Cruz de Succhabamba, a town of about 5,000 people in the Andean highlands of the diocese where he served as bishop from 2015 to 2023. In his homily at an open-air Mass he praised the missionaries who evangelised the region and the popular piety of the high Andes. The visit is part of his apostolic journey through Uruguay, Argentina and Peru.",
+   "source": "EWTN News",
+   "url": "https://www.ewtnnews.com/vatican/papal-mass-santa-cruz-de-succhabamba",
+   "published": "2026-11-14T18:53:00+01:00",
+   "added": "2026-11-15T06:06:43.896725+01:00",
+   "image": "images/pope-leo-andes-mass-santa-cruz-succhabamba.webp"
+  },
+  {
+   "slug": "zimbabwe-hiv-gains-tested-among-young-people",
+   "section": "health",
+   "sectionLabel": "Health",
+   "title": "Zimbabwe's HIV gains face their hardest test among young people",
+   "summary": "Zimbabwe has exceeded the UNAIDS 95-95-95 targets, with 97% of people living with HIV aware of their status, more than 95% on antiretroviral therapy and 96% of those virally suppressed. But critical gaps remain for children, adolescents and pregnant women, and nearly half of adolescents and young people are not in education, employment or training. Awareness of HIV status among young people in Harare rose from 63% to 85% between August 2025 and September 2026.",
+   "source": "UNICEF Zimbabwe",
+   "url": "https://www.unicef.org/zimbabwe/hiv-and-adolescent-development-and-participation",
+   "published": "2026-11-14T12:00:00+01:00",
+   "added": "2026-11-15T06:06:43.896725+01:00",
+   "image": "images/zimbabwe-hiv-gains-tested-among-young-people.webp"
+  },
+  {
+   "slug": "fani-kayode-presents-credence-ramaphosa",
+   "section": "nigeria",
+   "sectionLabel": "Nigeria",
+   "title": "Fani-Kayode presents credentials to Ramaphosa as Nigeria-South Africa envoy",
+   "summary": "Femi Fani-Kayode has formally assumed duty as Nigeria's ambassador to South Africa after presenting his letter of credence to President Cyril Ramaphosa. He pledged to rebuild relations between Abuja and Pretoria, which have been strained by diplomatic friction in recent months. The ceremony was reported by Nigerian outlets including Premium Times and ThisDay.",
+   "source": "Premium Times",
+   "url": "https://www.premiumtimesng.com/",
+   "published": "2026-11-14T10:00:00+01:00",
+   "added": "2026-11-15T06:06:43.896725+01:00",
+   "image": "images/fani-kayode-presents-credence-ramaphosa.webp"
   }
  ]
 }

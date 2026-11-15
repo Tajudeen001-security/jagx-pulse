@@ -1,6 +1,6 @@
 /* JagX Pulse service worker — installable app + offline reading of the cached edition.
    Bump VERSION on every refresh so readers pick up the new edition. */
-var VERSION = 'jagx-pulse-v2-e2';
+var VERSION = 'jagx-pulse-v3-e3';
 
 var SHELL = [
   './',
