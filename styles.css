@@ -157,6 +157,8 @@ button,input{font:inherit;color:inherit}
 .foot__cols ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:7px}
 .foot__cols li,.foot__cols a{font-size:.82rem;color:var(--muted);line-height:1.5}
 .foot__cols a:hover{color:var(--gold-soft)}
+.foot__social a{display:inline-flex;align-items:center;gap:6px;color:var(--gold-soft);font-weight:600}
+.foot__social a:hover{color:var(--gold)}
 .foot__base{display:flex;flex-wrap:wrap;gap:8px 22px;justify-content:space-between;border-top:1px solid var(--line);padding-top:18px;padding-bottom:26px;font-size:.74rem;color:var(--muted-2)}
 .foot__base strong{color:var(--gold);font-weight:600}
 
