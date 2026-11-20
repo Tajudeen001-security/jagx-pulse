@@ -199,6 +199,7 @@
           ', and the link below opens it at the source.</p>' +
           '<p>JagX Pulse carries the headline, what the story is about, the source, the date it was published and the date it was added to this edition — so a reader arriving later can always tell how old a story is. Older editions stay online with their original dates.</p>' +
         '</div>' +
+        '<div class="article__share"><button class="share-story" type="button">Share this story</button><span class="share-status" role="status" aria-live="polite"></span></div>' +
         '<div class="article__source">' +
           '<p>Read the full story at the source:</p>' +
           '<a href="' + esc(s.url) + '" target="_blank" rel="noopener noreferrer">' + esc(s.source) + ' — ' + esc(s.title) + '</a>' +
@@ -238,7 +239,13 @@
   function renderEdition() {
     var e = state.edition || {};
     var up = $('edUpdated');
-    if (up) up.textContent = 'Last updated ' + (e.updatedLabel || fmtDate(e.updated));
+    if (up) {
+      var updatedAt = new Date(e.updated);
+      var ageHours = isNaN(updatedAt.getTime()) ? null : Math.max(0, Math.floor((Date.now() - updatedAt.getTime()) / 3600000));
+      var freshness = ageHours === null ? '' : (ageHours < 24 ? ' · Recent' : ' · Needs refresh');
+      up.textContent = 'Last updated ' + (e.updatedLabel || fmtDate(e.updated)) + freshness;
+      up.setAttribute('aria-label', up.textContent);
+    }
     var c = $('edCount');
     if (c) c.textContent = state.stories.length + ' stories in this edition';
     var v = $('edVersion');
@@ -251,6 +258,28 @@
 
   function wire() {
     document.addEventListener('click', function (ev) {
+      var share = ev.target.closest ? ev.target.closest('.share-story') : null;
+      if (share) {
+        var storyMatch = (location.hash || '').match(/^#\\/story\\/(.+)$/);
+        var story = storyMatch ? state.stories.filter(function (x) { return x.slug === decodeURIComponent(storyMatch[1]); })[0] : null;
+        if (!story) return;
+        var shareData = { title: story.title + ' · JagX Pulse', text: story.summary, url: location.href };
+        var status = share.parentNode.querySelector('.share-status');
+        if (navigator.share) {
+          navigator.share(shareData).catch(function (err) {
+            if (err && err.name !== 'AbortError' && status) status.textContent = 'Sharing was cancelled or unavailable.';
+          });
+        } else if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(location.href).then(function () {
+            if (status) status.textContent = 'Article link copied.';
+          }).catch(function () {
+            if (status) status.textContent = 'Copy this page link from your browser address bar.';
+          });
+        } else if (status) {
+          status.textContent = 'Copy this page link from your browser address bar.';
+        }
+        return;
+      }
       var cat = ev.target.closest ? ev.target.closest('.cat') : null;
       if (cat) {
         state.section = cat.getAttribute('data-section');
