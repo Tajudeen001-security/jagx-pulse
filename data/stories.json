@@ -5,6 +5,118 @@
   "refreshSchedule": "Daily rolling editions · New stories are added without removing the archive",
   "stories": [
     {
+      "slug": "ghana-judicial-service-meets-unions-to-prevent-strike",
+      "section": "africa",
+      "sectionLabel": "Africa",
+      "title": "Ghana Judicial Service holds talks to prevent staff strike",
+      "summary": "The Judicial Service has met staff unions over outstanding pay and working-condition concerns in an effort to prevent a resumption of industrial action. Management says it has asked government stakeholders for urgent discussions.",
+      "source": "Citi Newsroom",
+      "url": "https://www.citinewsroom.com/2026/11/judicial-service-engages-unions-to-avert-resumption-of-strike/",
+      "published": "2026-11-19",
+      "added": "2026-11-20",
+      "countries": [
+        "Ghana"
+      ]
+    },
+    {
+      "slug": "ghana-parliament-receives-national-petroleum-authority-bill-2026",
+      "section": "business",
+      "sectionLabel": "Business",
+      "title": "Ghana’s energy minister presents new petroleum authority bill",
+      "summary": "Energy Minister John Jinapor has laid the National Petroleum Authority Bill 2026 before Parliament. The proposed legislation seeks to update and consolidate rules governing Ghana’s downstream petroleum industry.",
+      "source": "Citi Newsroom",
+      "url": "https://www.citinewsroom.com/2026/11/john-jinapor-lays-npa-bill-2026-before-parliament/",
+      "published": "2026-11-19",
+      "added": "2026-11-20",
+      "countries": [
+        "Ghana"
+      ]
+    },
+    {
+      "slug": "ghana-airports-funds-ten-sniffer-dogs-for-airport-security",
+      "section": "africa",
+      "sectionLabel": "Africa",
+      "title": "Ghana Airports Company funds 10 sniffer dogs for airport security",
+      "summary": "Ghana Airports Company has funded the purchase of 10 sniffer dogs for the Narcotics Control Commission. The dogs are expected to support drug detection and help address security gaps at the country’s airports.",
+      "source": "Citi Newsroom",
+      "url": "https://www.citinewsroom.com/2026/11/gacl-funds-acquisition-of-10-sniffer-dogs-for-nacoc/",
+      "published": "2026-11-19",
+      "added": "2026-11-20",
+      "countries": [
+        "Ghana"
+      ]
+    },
+    {
+      "slug": "university-of-ghana-seeks-legal-clarity-over-hostel-rent-control",
+      "section": "africa",
+      "sectionLabel": "Africa",
+      "title": "University of Ghana seeks legal clarity on rent rules for student hostels",
+      "summary": "The University of Ghana has asked for clarification on whether existing rent legislation applies to accommodation operated by its enterprise company. The university says it reduced a proposed increase for standard four-bed rooms from 26% to 15% after student consultations.",
+      "source": "Citi Newsroom",
+      "url": "https://www.citinewsroom.com/2026/11/ug-seeks-legal-clarity-on-rent-controls-authority-over-its-hostels/",
+      "published": "2026-11-19",
+      "added": "2026-11-20",
+      "countries": [
+        "Ghana"
+      ]
+    },
+    {
+      "slug": "burkina-bobo-dioulasso-court-clerk-remanded-over-alleged-fraud",
+      "section": "africa",
+      "sectionLabel": "Africa",
+      "title": "Burkina Faso court clerk remanded over alleged CFA4.5m auction fraud",
+      "summary": "A court clerk in Bobo-Dioulasso has been placed in custody over allegations that he collected CFA4.5 million by promising a vehicle auction that prosecutors say was fictitious. The case is being handled by the local prosecutor’s office.",
+      "source": "Burkina24",
+      "url": "https://burkina24.com/2026/11/19/bobo-dioulasso-un-greffier-poursuivi-pour-escroquerie-et-abus-de-fonction/",
+      "published": "2026-11-19",
+      "added": "2026-11-20",
+      "countries": [
+        "Burkina Faso"
+      ]
+    },
+    {
+      "slug": "burkina-camc-o-promotes-mediation-arbitration-for-small-businesses",
+      "section": "business",
+      "sectionLabel": "Business",
+      "title": "Burkina Faso arbitration centre seeks easier dispute resolution for SMEs",
+      "summary": "The Ouagadougou Centre for Arbitration, Mediation and Conciliation has urged wider use of mediation and arbitration by small businesses. The centre says accessible dispute-resolution options can reduce legal costs and help protect commercial relationships.",
+      "source": "Burkina24",
+      "url": "https://burkina24.com/2026/11/19/justice-alternative-au-burkina-faso-le-camc-o-veut-faciliter-lacces-des-pme-pmi-a-la-mediation-et-a-larbitrage/",
+      "published": "2026-11-19",
+      "added": "2026-11-20",
+      "countries": [
+        "Burkina Faso"
+      ]
+    },
+    {
+      "slug": "burkina-citizen-oversight-groups-monitor-local-budgets",
+      "section": "africa",
+      "sectionLabel": "Africa",
+      "title": "Burkina Faso groups strengthen citizen oversight of local budgets",
+      "summary": "A public-finance research centre is supporting citizen committees in Korsimoro and Ziniaré to track municipal revenue, spending and projects. The initiative aims to give residents a stronger voice in local budget decisions and public investment.",
+      "source": "Burkina24",
+      "url": "https://burkina24.com/2026/11/19/finances-publiques-a-korsimoro-et-ziniare-le-cera-fp-donne-du-pouvoir-a-la-veille-citoyenne/",
+      "published": "2026-11-19",
+      "added": "2026-11-20",
+      "countries": [
+        "Burkina Faso"
+      ]
+    },
+    {
+      "slug": "burkina-iran-ambassador-concludes-mission-cooperation-reviewed",
+      "section": "africa",
+      "sectionLabel": "Africa",
+      "title": "Burkina Faso bids farewell to Iran’s ambassador after three-year mission",
+      "summary": "Burkina Faso’s foreign minister has received Iran’s outgoing ambassador, reviewing more than three years of bilateral cooperation. Officials highlighted diplomatic exchanges and joint initiatives during the envoy’s tenure.",
+      "source": "Burkina24",
+      "url": "https://burkina24.com/2026/11/19/cooperation-bilaterale-lambassadeur-de-la-republique-islamique-diran-en-fin-de-mission-recoit-la-reconnaissance-de-la-nation-burkinabe/",
+      "published": "2026-11-19",
+      "added": "2026-11-20",
+      "countries": [
+        "Burkina Faso"
+      ]
+    },
+    {
       "slug": "ghana-lifts-nkwanta-south-curfew-maintains-weapons-ban",
       "section": "africa",
       "sectionLabel": "Africa",
