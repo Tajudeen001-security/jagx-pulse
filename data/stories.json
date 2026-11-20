@@ -5,6 +5,76 @@
   "refreshSchedule": "Daily rolling editions · New stories are added without removing the archive",
   "stories": [
     {
+      "slug": "kenya-courts-handle-more-than-15000-child-related-cases",
+      "section": "africa",
+      "sectionLabel": "Africa",
+      "title": "Kenyan courts handle more than 15,000 cases involving children in one year",
+      "summary": "Kenya’s State of the Judiciary report records 15,272 child-related cases received in the 2025/26 financial year. Most involved children in contact with the law, including custody, guardianship, maintenance and protection matters; courts resolved 16,010 child-related cases during the period.",
+      "source": "Daily Nation",
+      "url": "https://nation.africa/kenya/news/judiciary-report-courts-handle-more-than-15-000-cases-involving-children-5677854",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "Kenya"
+      ]
+    },
+    {
+      "slug": "nairobi-accounts-for-quarter-of-kenya-court-filings",
+      "section": "africa",
+      "sectionLabel": "Africa",
+      "title": "Nairobi accounts for one in every four new cases filed in Kenyan courts",
+      "summary": "The Judiciary’s 2025/26 annual report says 561,580 new cases were filed nationwide, including 140,213 in Nairobi. Eight counties together accounted for about 57 per cent of all new filings.",
+      "source": "Daily Nation",
+      "url": "https://nation.africa/kenya/news/nairobi-accounts-for-one-in-every-four-cases-filed-in-courts-5677296",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "Kenya"
+      ]
+    },
+    {
+      "slug": "ken-wa-maria-hospitalised-after-nairobi-mombasa-highway-crash",
+      "section": "entertainment",
+      "sectionLabel": "Entertainment",
+      "title": "Ken Wa Maria hospitalised after Nairobi–Mombasa Highway crash",
+      "summary": "Kamba musician Ken Wa Maria sustained minor injuries when his car collided with a truck near Signature Mall in Sabaki, Machakos County. Police said he was taken to a hospital in Mlolongo for treatment.",
+      "source": "Citizen Digital",
+      "url": "https://citizen.digital/article/ken-wa-maria-hospitalised-after-highway-accident-n394241",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "Kenya"
+      ]
+    },
+    {
+      "slug": "kisii-university-plans-dental-surgery-programme",
+      "section": "education",
+      "sectionLabel": "Education",
+      "title": "Kisii University plans new dental surgery programme with Uzbek partner",
+      "summary": "Kisii University says it is working with Uzbekistan’s Central Asian Medical University on a dental surgery programme. The partnership is expected to support training equipment and technical staffing for the proposed department.",
+      "source": "Kenya News Agency",
+      "url": "https://www.kenyanews.go.ke/%F0%9D%90%8A%F0%9D%90%A2%F0%9D%90%AC%F0%9D%90%A2%F0%9D%90%A2-%F0%9D%90%94%F0%9D%90%A7%F0%9D%90%A2%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%AC%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%B2-%F0%9D%90%AD/",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "Kenya"
+      ]
+    },
+    {
+      "slug": "south-africa-tribunal-rules-against-automatic-restaurant-service-charge",
+      "section": "business",
+      "sectionLabel": "Business",
+      "title": "South African tribunal rules against restaurant’s automatic 10% service charge",
+      "summary": "The National Consumer Tribunal ruled that a Pretoria restaurant’s practice of automatically adding a 10 per cent service charge was unfair. It said tips must be freely chosen by customers rather than added automatically and removed only after a complaint.",
+      "source": "eNCA",
+      "url": "https://www.enca.com/news-top-stories/tribunal-rules-against-restaurant-over-automatic-10-service-charge",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "South Africa"
+      ]
+    },
+    {
       "slug": "aiden-markram-to-lead-south-africa-in-second-bangladesh-test",
       "section": "sports",
       "sectionLabel": "Sports",
