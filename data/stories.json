@@ -1,7 +1,7 @@
 {
   "edition": 9,
   "updated": "2026-11-20",
-  "updatedLabel": "20 Nov 2026 · Africa-wide edition",
+  "updatedLabel": "20 Nov 2026 · Country desks edition",
   "refreshSchedule": "Daily rolling editions · New stories are added without removing the archive",
   "stories": [
     {
@@ -14,7 +14,9 @@
       "url": "https://www.sanews.gov.za/",
       "published": "2026-11-20",
       "added": "2026-11-20",
-      "region": "Southern Africa"
+      "countries": [
+        "South Africa"
+      ]
     },
     {
       "slug": "south-africa-anc-partners-near-johannesburg-coalition-deal",
@@ -26,7 +28,9 @@
       "url": "https://www.reuters.com/world/africa/south-africas-anc-partners-near-coalition-deal-sideline-poll-topping-da-2026-11-19/",
       "published": "2026-11-19",
       "added": "2026-11-20",
-      "region": "Southern Africa"
+      "countries": [
+        "South Africa"
+      ]
     },
     {
       "slug": "south-africa-reserve-bank-holds-rate-725-split-decision",
@@ -38,7 +42,9 @@
       "url": "https://www.reuters.com/world/africa/south-africa-central-bank-maintains-policy-rate-close-call-2026-11-19/",
       "published": "2026-11-19",
       "added": "2026-11-20",
-      "region": "Southern Africa"
+      "countries": [
+        "South Africa"
+      ]
     },
     {
       "slug": "south-africa-rand-near-one-year-low-coalition-uncertainty",
@@ -50,7 +56,9 @@
       "url": "https://www.reuters.com/world/africa/south-african-rand-near-one-year-low-with-coalition-talks-focus-2026-11-20/",
       "published": "2026-11-20",
       "added": "2026-11-20",
-      "region": "Southern Africa"
+      "countries": [
+        "South Africa"
+      ]
     },
     {
       "slug": "tunisia-minibus-truck-collision-kills-four-near-enfidha",
@@ -62,7 +70,9 @@
       "url": "https://www.thetunisiapress.com/executive-report",
       "published": "2026-11-20",
       "added": "2026-11-20",
-      "region": "North Africa"
+      "countries": [
+        "Tunisia"
+      ]
     },
     {
       "slug": "algerian-man-sentenced-fake-identity-documents-france",
@@ -74,7 +84,9 @@
       "url": "https://www.algerie360.com/algerien-faux-papiers-six-departements-condamne-lyon/",
       "published": "2026-11-20",
       "added": "2026-11-20",
-      "region": "North Africa"
+      "countries": [
+        "Algeria"
+      ]
     },
     {
       "slug": "libya-investigation-torture-death-483-eritrean-migrants-tripoli",
@@ -86,7 +98,9 @@
       "url": "https://libyareview.com/69839/torture-death-investigation-uncovers-483-eritrean-migrants-south-of-libyas-tripoli/",
       "published": "2026-11-19",
       "added": "2026-11-20",
-      "region": "North Africa"
+      "countries": [
+        "Libya"
+      ]
     },
     {
       "slug": "tunisia-fuel-transport-strike-cancelled-november-23-25",
@@ -98,7 +112,9 @@
       "url": "https://news-tunisia.tunisienumerique.com/tunisia-three-day-strike-in-fuel-transport-sector-called-off/",
       "published": "2026-11-20",
       "added": "2026-11-20",
-      "region": "North Africa"
+      "countries": [
+        "Tunisia"
+      ]
     },
     {
       "slug": "tunisia-young-doctors-suspend-november-20-strike-overdue-payments",
@@ -110,7 +126,9 @@
       "url": "https://www.tunisiatimes.org/article/cmwotw8in182411acz6gdxg8y",
       "published": "2026-11-20",
       "added": "2026-11-20",
-      "region": "North Africa"
+      "countries": [
+        "Tunisia"
+      ]
     },
     {
       "slug": "egypt-libya-sign-energy-fisheries-labour-cooperation",
@@ -122,7 +140,10 @@
       "url": "https://english.ahram.org.eg/NewsContentP/1/582886/Egypt/Egypt%2C-Libya-sign-energy-and-fisheries-agreements-.aspx",
       "published": "2026-11-19",
       "added": "2026-11-20",
-      "region": "North Africa"
+      "countries": [
+        "Egypt",
+        "Libya"
+      ]
     },
     {
       "slug": "benin-2027-school-meals-budget-expansion",
@@ -134,7 +155,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "West Africa"
+      "countries": [
+        "Benin"
+      ]
     },
     {
       "slug": "burkina-perkoa-zinc-mine-relaunch-investment",
@@ -146,7 +169,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Business",
-      "region": "West Africa"
+      "countries": [
+        "Burkina Faso"
+      ]
     },
     {
       "slug": "burundi-refugees-arrests-banyamulenge",
@@ -158,7 +183,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "Central Africa"
+      "countries": [
+        "Burundi"
+      ]
     },
     {
       "slug": "cape-verde-court-public-notice-ivo-monteiro",
@@ -170,7 +197,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "West Africa"
+      "countries": [
+        "Cabo Verde"
+      ]
     },
     {
       "slug": "cote-divoire-benin-togo-gas-supply-agreement",
@@ -182,7 +211,11 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Business",
-      "region": "West Africa"
+      "countries": [
+        "Côte d’Ivoire",
+        "Benin",
+        "Togo"
+      ]
     },
     {
       "slug": "guinea-doumbouya-ministers-accountability-national-tv",
@@ -194,7 +227,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "West Africa"
+      "countries": [
+        "Guinea"
+      ]
     },
     {
       "slug": "liberia-diaspora-voting-campaign-2029-election",
@@ -206,7 +241,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "West Africa"
+      "countries": [
+        "Liberia"
+      ]
     },
     {
       "slug": "mauritania-construction-site-worker-killed-zouerate",
@@ -218,7 +255,9 @@
       "published": "2026-11-19",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "West Africa"
+      "countries": [
+        "Mauritania"
+      ]
     },
     {
       "slug": "niger-china-party-central-committee-relations-briefing",
@@ -230,7 +269,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "World",
-      "region": "West Africa"
+      "countries": [
+        "Niger"
+      ]
     },
     {
       "slug": "senegal-prosecutor-seeks-trial-aziz-dabala-wally-gano-case",
@@ -242,7 +283,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "West Africa"
+      "countries": [
+        "Senegal"
+      ]
     },
     {
       "slug": "togo-dmk-sika-monetary-sovereignty-proposal",
@@ -254,7 +297,9 @@
       "published": "2026-11-19",
       "added": "2026-11-20",
       "sectionLabel": "Business",
-      "region": "West Africa"
+      "countries": [
+        "Togo"
+      ]
     },
     {
       "slug": "angola-media-monitoring-report-fairness-public-broadcasting",
@@ -266,7 +311,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "Central Africa"
+      "countries": [
+        "Angola"
+      ]
     },
     {
       "slug": "cameroon-anglophone-crisis-detainees-release-appeal",
@@ -278,7 +325,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "Central Africa"
+      "countries": [
+        "Cameroon"
+      ]
     },
     {
       "slug": "central-african-republic-zemio-merchant-dies-military-prison",
@@ -290,7 +339,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "Central Africa"
+      "countries": [
+        "Central African Republic"
+      ]
     },
     {
       "slug": "chad-university-researchers-cames-agrégation-2026",
@@ -302,7 +353,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Science",
-      "region": "Central Africa"
+      "countries": [
+        "Chad"
+      ]
     },
     {
       "slug": "congo-digital-platforms-postal-sector-opportunity",
@@ -314,7 +367,9 @@
       "published": "2026-11-19",
       "added": "2026-11-20",
       "sectionLabel": "Technology",
-      "region": "Central Africa"
+      "countries": [
+        "Republic of the Congo"
+      ]
     },
     {
       "slug": "dr-congo-oil-sector-154m-certified-losses-shortfalls",
@@ -326,7 +381,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Business",
-      "region": "Central Africa"
+      "countries": [
+        "Democratic Republic of the Congo"
+      ]
     },
     {
       "slug": "equatorial-guinea-journalists-honest-view-awards-2026",
@@ -338,7 +395,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "Central Africa"
+      "countries": [
+        "Equatorial Guinea"
+      ]
     },
     {
       "slug": "gabon-37600-day-old-chicks-received-libreville",
@@ -350,7 +409,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Business",
-      "region": "Central Africa"
+      "countries": [
+        "Gabon"
+      ]
     },
     {
       "slug": "sao-tome-citizens-seek-concrete-results-from-new-government",
@@ -362,7 +423,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "Central Africa"
+      "countries": [
+        "São Tomé and Príncipe"
+      ]
     },
     {
       "slug": "ethiopia-african-instant-payments-18-trillion-trust-gap",
@@ -374,7 +437,9 @@
       "published": "2026-11-19",
       "added": "2026-11-20",
       "sectionLabel": "Business",
-      "region": "East Africa"
+      "countries": [
+        "Africa-wide"
+      ]
     },
     {
       "slug": "kenya-opposition-walkout-iebc-2027-election-preparations",
@@ -386,7 +451,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "East Africa"
+      "countries": [
+        "Kenya"
+      ]
     },
     {
       "slug": "madagascar-ambohimalaza-case-civil-party-summons-former-health-minister",
@@ -398,7 +465,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "East Africa"
+      "countries": [
+        "Madagascar"
+      ]
     },
     {
       "slug": "malawi-former-police-informant-accuses-officers",
@@ -410,7 +479,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "East Africa"
+      "countries": [
+        "Malawi"
+      ]
     },
     {
       "slug": "rwanda-oif-debate-sovereignty-francophone-institutions",
@@ -422,7 +493,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "East Africa"
+      "countries": [
+        "Rwanda"
+      ]
     },
     {
       "slug": "seychelles-eu-delegation-courtesy-visit",
@@ -434,7 +507,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "East Africa"
+      "countries": [
+        "Seychelles"
+      ]
     },
     {
       "slug": "somalia-pm-barre-uae-accused-funding-southwest-conflict",
@@ -446,7 +521,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "East Africa"
+      "countries": [
+        "Somalia"
+      ]
     },
     {
       "slug": "south-sudan-juba-prison-29-inmates-sit-cpe-exams",
@@ -458,7 +535,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "East Africa"
+      "countries": [
+        "South Sudan"
+      ]
     },
     {
       "slug": "sudan-armed-group-claims-control-bau-blue-nile",
@@ -470,7 +549,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "East Africa"
+      "countries": [
+        "Sudan"
+      ]
     },
     {
       "slug": "tanzania-eac-shield-economies-global-shocks",
@@ -482,7 +563,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Business",
-      "region": "East Africa"
+      "countries": [
+        "Tanzania"
+      ]
     },
     {
       "slug": "botswana-sl aty-egret-okavango-delta-health",
@@ -494,7 +577,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Science",
-      "region": "Southern Africa"
+      "countries": [
+        "Botswana"
+      ]
     },
     {
       "slug": "eswatini-reconstruction-fund-fraud-police-officer-arrest",
@@ -506,7 +591,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "Southern Africa"
+      "countries": [
+        "Eswatini"
+      ]
     },
     {
       "slug": "lesotho-menstrual-health-men-and-boys-stigma",
@@ -518,7 +605,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Health",
-      "region": "Southern Africa"
+      "countries": [
+        "Lesotho"
+      ]
     },
     {
       "slug": "mozambique-renamo-water-pollution-mining-inquiry",
@@ -530,7 +619,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "Southern Africa"
+      "countries": [
+        "Mozambique"
+      ]
     },
     {
       "slug": "namibia-court-30-year-sentence-child-rape",
@@ -542,7 +633,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "Southern Africa"
+      "countries": [
+        "Namibia"
+      ]
     },
     {
       "slug": "zambia-police-discipline-officers-district-commissioner-crash",
@@ -554,7 +647,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "Southern Africa"
+      "countries": [
+        "Zambia"
+      ]
     },
     {
       "slug": "zimbabwe-speeding-death-six-year-old-bulawayo-girl",
@@ -566,7 +661,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "Southern Africa"
+      "countries": [
+        "Zimbabwe"
+      ]
     },
     {
       "slug": "kenya-hippos-die-after-eating-maize-fishing-nets",
@@ -578,7 +675,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Science",
-      "region": "East Africa"
+      "countries": [
+        "Kenya"
+      ]
     },
     {
       "slug": "egypt-repays-38-2-billion-external-debt-record-reserves",
@@ -590,7 +689,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Business",
-      "region": "North Africa"
+      "countries": [
+        "Egypt"
+      ]
     },
     {
       "slug": "morocco-press-review-november-20-2026",
@@ -602,7 +703,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "North Africa"
+      "countries": [
+        "Morocco"
+      ]
     },
     {
       "slug": "tunisia-sihem-ben-sedrine-five-year-prison-sentence",
@@ -614,7 +717,9 @@
       "published": "2026-11-20",
       "added": "2026-11-20",
       "sectionLabel": "Africa",
-      "region": "North Africa"
+      "countries": [
+        "Tunisia"
+      ]
     },
     {
       "slug": "south-africa-markram-bangladesh-second-test-squads",
@@ -625,7 +730,10 @@
       "url": "https://www.reuters.com/sports/cricket/markram-lead-s-africa-second-test-t20-odi-squads-named-2026-11-20/",
       "published": "2026-11-20T12:06:00+01:00",
       "sectionLabel": "Sports",
-      "added": "2026-11-20"
+      "added": "2026-11-20",
+      "countries": [
+        "South Africa"
+      ]
     },
     {
       "slug": "wall-street-futures-fall-anthropic-market-debut-ai-investors",
@@ -669,7 +777,10 @@
       "url": "https://punchng.com/morning-recap-apc-convoy-attacked-in-gombe-fg-suspends-lagos-ibadan-bridge-work-other-stories/",
       "published": "2026-11-20T07:34:00+01:00",
       "sectionLabel": "Nigeria",
-      "added": "2026-11-20"
+      "added": "2026-11-20",
+      "countries": [
+        "Nigeria"
+      ]
     },
     {
       "slug": "south-korea-first-cholera-case-decade-health-alert",
@@ -691,7 +802,10 @@
       "url": "https://punchng.com/fg-suspends-lagos-ibadan-bridge-work-after-20-hour-gridlock/",
       "published": "2026-11-20T06:37:00+01:00",
       "sectionLabel": "Nigeria",
-      "added": "2026-11-20"
+      "added": "2026-11-20",
+      "countries": [
+        "Nigeria"
+      ]
     },
     {
       "slug": "osun-mob-kills-ilesa-accident-survivor-police-investigate",
@@ -702,7 +816,10 @@
       "url": "https://punchng.com/mob-kills-osun-accident-survivor-police-hunt-suspects/",
       "published": "2026-11-20T06:36:00+01:00",
       "sectionLabel": "Nigeria",
-      "added": "2026-11-20"
+      "added": "2026-11-20",
+      "countries": [
+        "Nigeria"
+      ]
     },
     {
       "slug": "russian-missile-drone-attacks-kyiv-kill-three-damage-bridges",
@@ -724,7 +841,10 @@
       "url": "https://punchng.com/nigeria-records-941-road-crash-deaths-in-q3-frsc/",
       "published": "2026-11-20T02:00:00+01:00",
       "sectionLabel": "Nigeria",
-      "added": "2026-11-20"
+      "added": "2026-11-20",
+      "countries": [
+        "Nigeria"
+      ]
     },
     {
       "slug": "naira-weakens-to-n1388-dollar-eight-month-low",
@@ -735,7 +855,10 @@
       "url": "https://nairametrics.com/2026/11/20/naira-heads-to-n1400-weakest-close-in-eight-months/",
       "published": "2026-11-20",
       "sectionLabel": "Business",
-      "added": "2026-11-20"
+      "added": "2026-11-20",
+      "countries": [
+        "Nigeria"
+      ]
     },
     {
       "slug": "asup-strike-southwest-state-polytechnics-november-2026",
@@ -746,7 +869,10 @@
       "url": "https://www.premiumtimesng.com/regional/ssouth-west/926621-asup-declares-strike-across-ogun-oyo-osun-ekiti-polytechnics.html",
       "published": "2026-11-20",
       "sectionLabel": "Nigeria",
-      "added": "2026-11-20"
+      "added": "2026-11-20",
+      "countries": [
+        "Nigeria"
+      ]
     },
     {
       "slug": "gombe-transmission-substation-capacity-doubles-600mva",
@@ -757,7 +883,10 @@
       "url": "https://nairametrics.com/2026/11/20/fg-doubles-gombe-transmission-capacity-to-600mva/",
       "published": "2026-11-20",
       "sectionLabel": "Business",
-      "added": "2026-11-20"
+      "added": "2026-11-20",
+      "countries": [
+        "Nigeria"
+      ]
     },
     {
       "slug": "nigeria-russia-customs-trade-cooperation-agreement",
@@ -768,7 +897,10 @@
       "url": "https://thelagos.org/news/nigeria-russia-move-to-ease-trade-strengthen-customs-cooperation",
       "published": "2026-11-20",
       "sectionLabel": "Africa",
-      "added": "2026-11-20"
+      "added": "2026-11-20",
+      "countries": [
+        "Nigeria"
+      ]
     },
     {
       "slug": "glovo-healthy-food-orders-surge-nigeria-africa-230-percent",
@@ -779,7 +911,11 @@
       "url": "https://nairametrics.com/2026/11/20/glovo-sees-230-surge-in-healthy-food-orders-across-nigeria-other-african-markets/",
       "published": "2026-11-20",
       "sectionLabel": "Business",
-      "added": "2026-11-20"
+      "added": "2026-11-20",
+      "countries": [
+        "Nigeria",
+        "Africa-wide"
+      ]
     },
     {
       "slug": "nigeria-petrol-supply-rises-46-9-million-litres-october",
@@ -790,7 +926,10 @@
       "url": "https://insidebusinessafricang.com/2026/11/20/petrol-supply-rises-21-to-46-9m-litres-daily-in-october-nmdpra/",
       "published": "2026-11-20",
       "sectionLabel": "Business",
-      "added": "2026-11-20"
+      "added": "2026-11-20",
+      "countries": [
+        "Nigeria"
+      ]
     },
     {
       "slug": "fg-harmonise-2026-2027-budgets-fiscal-planning",
@@ -801,7 +940,10 @@
       "url": "https://gazettengr.com/fg-advances-plan-to-harmonise-2026-2027-budgets/",
       "published": "2026-11-20",
       "sectionLabel": "Nigeria",
-      "added": "2026-11-20"
+      "added": "2026-11-20",
+      "countries": [
+        "Nigeria"
+      ]
     },
     {
       "slug": "apga-endorses-tinubu-2027-presidential-election",
@@ -812,7 +954,10 @@
       "url": "https://von.gov.ng/apga-endorses-president-tinubu-for-2027-election/",
       "published": "2026-11-20",
       "sectionLabel": "Nigeria",
-      "added": "2026-11-20"
+      "added": "2026-11-20",
+      "countries": [
+        "Nigeria"
+      ]
     },
     {
       "slug": "myanmar-rejects-icj-rohingya-genocide-ruling-unfair",
@@ -856,7 +1001,10 @@
       "url": "https://nairaenergies.com/news/energy-in-brief-2026-11-20/",
       "published": "2026-11-20",
       "sectionLabel": "Africa",
-      "added": "2026-11-20"
+      "added": "2026-11-20",
+      "countries": [
+        "Nigeria"
+      ]
     },
     {
       "slug": "serap-gives-inec-seven-days-prosecute-electoral-violence",
