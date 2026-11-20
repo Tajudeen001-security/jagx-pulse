@@ -419,7 +419,7 @@
       "title": "Academy holds 17th Governors Awards, honouring Close, Norman and Scott",
       "summary": "The Academy of Motion Picture Arts and Sciences holds its 17th Governors Awards on Sunday at the Ray Dolby Ballroom at Ovation Hollywood, the first major event of the awards season. Academy Honorary Awards go to actor Glenn Close, animator Floyd Norman and director Ridley Scott, with the Irving G. Thalberg Memorial Award to producers Christine Vachon and Pamela Koffler. The honours are conferred by the Academy's Board of Governors rather than voted by members.",
       "source": "Academy Press Office",
-      "url": "http://press.oscars.org/news/academy-honor-glenn-close-floyd-norman-ridley-scott-and-christine-vachon-pamela-koffler-2026",
+      "url": "https://press.oscars.org/news/academy-honor-glenn-close-floyd-norman-ridley-scott-and-christine-vachon-pamela-koffler-2026",
       "published": "2026-11-15T02:00:00+00:00",
       "added": "2026-11-15T12:20:00+01:00",
       "image": "images/governors-awards-17th-ceremony-honorary-oscars.webp"
@@ -1982,7 +1982,9 @@
       "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
       "published": "2026-11-11T17:14:44+01:00",
       "added": "2026-11-12T13:22:29.562295+01:00",
-      "image": "images/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time.webp"
+      "image": "images/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time.webp",
+      "postedToX": true,
+      "tweetId": "2121726835440472311"
     },
     {
       "slug": "druski-brings-snl-5-6-million-viewers-its-biggest-audience-in-two-year",
@@ -2055,20 +2057,6 @@
       "published": "2026-11-11T14:00:00+00:00",
       "added": "2026-11-15T16:20:00+01:00",
       "image": "images/kano-yusuf-presents-1-107-trillion-2027-budget.webp"
-    },
-    {
-      "slug": "openai-quarterly-revenue-reportedly-crosses-10bn",
-      "section": "tech",
-      "sectionLabel": "Tech",
-      "title": "OpenAI’s quarterly revenue reportedly crosses $10bn for the first time",
-      "summary": "OpenAI’s revenue passed $10 billion in the third quarter, according to Bloomberg-sourced reporting relayed by TechCrunch, an increase of almost 50% on the $6.7 billion booked in the previous quarter. The figures come from people familiar with the matter rather than company disclosures, and TechCrunch attached the caveat “if true”.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
-      "published": "2026-11-11T14:18:00+01:00",
-      "added": "2026-11-14T23:03:35.156213+01:00",
-      "image": "images/openai-quarterly-revenue-reportedly-crosses-10bn.webp",
-      "tweetId": "2121726835440472311",
-      "postedToX": true
     },
     {
       "slug": "feds-goolsbee-calls-inflation-report-borderline-disturbing-as-central",
