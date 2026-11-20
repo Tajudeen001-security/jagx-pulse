@@ -121,8 +121,8 @@
     });
   }
 
-  function renderAfricaToday() {
-    var host = $('africaRegionGrid');
+  function renderCountryToday() {
+    var host = $('countryDeskGrid');
     var section = $('africaToday');
     if (!host || !section) return;
     if (state.section !== 'all' || state.query.trim()) {
@@ -130,24 +130,42 @@
       return;
     }
     section.hidden = false;
-    var regions = ['North Africa', 'West Africa', 'Central Africa', 'East Africa', 'Southern Africa'];
+    var editionDate = String(state.edition && state.edition.updated || '').slice(0, 10);
     var current = state.stories.filter(function (s) {
-      return s.region && s.added && String(s.added).slice(0, 10) === String(state.edition && state.edition.updated || '').slice(0, 10);
+      return String(s.added || '').slice(0, 10) === editionDate &&
+        Array.isArray(s.countries) && s.countries.length;
+    });
+    var grouped = {};
+    current.forEach(function (story) {
+      story.countries.forEach(function (country) {
+        if (!grouped[country]) grouped[country] = [];
+        if (grouped[country].indexOf(story) === -1) grouped[country].push(story);
+      });
+    });
+    var countryNames = Object.keys(grouped).sort(function (a, b) {
+      if (a === 'Nigeria') return -1;
+      if (b === 'Nigeria') return 1;
+      if (a === 'Africa-wide') return 1;
+      if (b === 'Africa-wide') return -1;
+      return a.localeCompare(b);
     });
     var count = $('africaTodayCount');
-    if (count) count.textContent = current.length + ' new regional reports';
-    host.innerHTML = regions.map(function (region) {
-      var stories = current.filter(function (s) { return s.region === region; });
-      if (!stories.length) return '';
-      return '<section class="africa-region" aria-label="' + esc(region) + '">' +
-        '<div class="africa-region__head"><h3>' + esc(region) + '</h3><span>' + stories.length + (stories.length === 1 ? ' report' : ' reports') + '</span></div>' +
-        '<div class="africa-region__track">' + stories.map(function (s) { return cardHTML(s); }).join('') + '</div>' +
-      '</section>';
+    if (count) count.textContent = countryNames.length + ' country desks · ' + current.length + ' reports';
+    host.innerHTML = countryNames.map(function (country) {
+      var stories = grouped[country].slice().sort(function (a, b) {
+        return new Date(b.published) - new Date(a.published);
+      });
+      return '<section class="country-desk" aria-label="' + esc(country) + ' news">' +
+        '<div class="country-desk__head"><h3>' + esc(country) + '</h3><span>' +
+        stories.length + (stories.length === 1 ? ' story' : ' stories') + '</span></div>' +
+        '<div class="country-desk__track">' + stories.map(function (s) {
+          return cardHTML(s, { hideSummary: true });
+        }).join('') + '</div></section>';
     }).join('');
   }
 
   function renderHome() {
-    renderAfricaToday();
+    renderCountryToday();
     var list = filtered();
     var hero = list[0];
     var heroSlot = $('heroSlot');
