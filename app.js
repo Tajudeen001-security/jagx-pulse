@@ -121,7 +121,33 @@
     });
   }
 
+  function renderAfricaToday() {
+    var host = $('africaRegionGrid');
+    var section = $('africaToday');
+    if (!host || !section) return;
+    if (state.section !== 'all' || state.query.trim()) {
+      section.hidden = true;
+      return;
+    }
+    section.hidden = false;
+    var regions = ['North Africa', 'West Africa', 'Central Africa', 'East Africa', 'Southern Africa'];
+    var current = state.stories.filter(function (s) {
+      return s.region && s.added && String(s.added).slice(0, 10) === String(state.edition && state.edition.updated || '').slice(0, 10);
+    });
+    var count = $('africaTodayCount');
+    if (count) count.textContent = current.length + ' new regional reports';
+    host.innerHTML = regions.map(function (region) {
+      var stories = current.filter(function (s) { return s.region === region; });
+      if (!stories.length) return '';
+      return '<section class="africa-region" aria-label="' + esc(region) + '">' +
+        '<div class="africa-region__head"><h3>' + esc(region) + '</h3><span>' + stories.length + (stories.length === 1 ? ' report' : ' reports') + '</span></div>' +
+        '<div class="africa-region__track">' + stories.map(function (s) { return cardHTML(s); }).join('') + '</div>' +
+      '</section>';
+    }).join('');
+  }
+
   function renderHome() {
+    renderAfricaToday();
     var list = filtered();
     var hero = list[0];
     var heroSlot = $('heroSlot');
