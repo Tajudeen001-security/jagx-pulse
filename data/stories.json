@@ -1,9 +1,220 @@
 {
   "edition": 9,
   "updated": "2026-11-20",
-  "updatedLabel": "20 Nov 2026 · Country desks edition",
+  "updatedLabel": "Friday, November 20, 2026",
   "refreshSchedule": "Daily rolling editions · New stories are added without removing the archive",
   "stories": [
+    {
+      "slug": "ghana-lifts-nkwanta-south-curfew-maintains-weapons-ban",
+      "section": "africa",
+      "sectionLabel": "Africa",
+      "title": "Ghana lifts Nkwanta South curfew but keeps weapons ban",
+      "summary": "Ghana has lifted the curfew in 11 communities in Nkwanta South after authorities reported an improved security situation. The ban on carrying arms and other offensive weapons remains in force across the municipality.",
+      "source": "Citi Newsroom",
+      "url": "https://www.citinewsroom.com/2026/11/govt-lifts-nkwanta-south-curfew-maintains-weapons-ban/",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "Ghana"
+      ]
+    },
+    {
+      "slug": "ghana-54-million-people-open-defecation-sanitation-crisis",
+      "section": "health",
+      "sectionLabel": "Health",
+      "title": "Ghana estimates 5.4 million people still practise open defecation",
+      "summary": "Ghana’s Local Government Ministry says about 5.4 million people still practise open defecation. The deputy minister highlighted sanitation risks for women and girls and called for more investment in household and public toilet facilities.",
+      "source": "Citi Newsroom",
+      "url": "https://www.citinewsroom.com/2026/11/5-4-million-ghanaians-practise-open-defecation-local-govt-ministry/",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "Ghana"
+      ]
+    },
+    {
+      "slug": "ghana-revenue-authority-finds-vat-breaches-at-14-achimota-businesses",
+      "section": "business",
+      "sectionLabel": "Business",
+      "title": "GRA identifies VAT compliance breaches at 14 Achimota businesses",
+      "summary": "The Ghana Revenue Authority says inspections at Achimota Retail Centre found issues including unauthorised invoice systems and failures to issue VAT invoices. The authority says enforcement checks will continue and businesses found in breach may face penalties.",
+      "source": "Citi Newsroom",
+      "url": "https://www.citinewsroom.com/2026/11/gra-uncovers-vat-breaches-at-14-businesses-at-achimota-retail-centre/",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "Ghana"
+      ]
+    },
+    {
+      "slug": "ghana-norway-new-business-startup-and-fintech-support",
+      "section": "business",
+      "sectionLabel": "Business",
+      "title": "Ghana and Norway announce new support for startups and fintech firms",
+      "summary": "Ghana’s foreign minister says new cooperation with Norway will support startups and small businesses, offer investment packages for fintech firms and assist a local green-cement producer. The partnership is also expected to cover ethical AI and scholarships.",
+      "source": "Citi Newsroom",
+      "url": "https://www.citinewsroom.com/2026/11/ablakwa-announces-new-ghana-norway-initiatives-to-support-businesses-create-jobs/",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "Ghana"
+      ]
+    },
+    {
+      "slug": "ghana-diaspora-trade-conference-investment-export-opportunities",
+      "section": "business",
+      "sectionLabel": "Business",
+      "title": "Ghana launches diaspora trade conference to attract investment",
+      "summary": "The Diaspora Affairs Office has launched a trade conference scheduled for January 5 to connect Ghanaians abroad with investment opportunities and help local small businesses reach export markets.",
+      "source": "Citi Newsroom",
+      "url": "https://www.citinewsroom.com/2026/11/diaspora-affairs-office-launches-trade-conference-to-boost-investment/",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "Ghana"
+      ]
+    },
+    {
+      "slug": "ghana-cemse-asks-review-fuel-marking-costs",
+      "section": "business",
+      "sectionLabel": "Business",
+      "title": "Ghana energy group urges review of fuel-marking costs",
+      "summary": "The Centre for Environmental Management and Sustainable Energy has urged Parliament to reassess the cost of the fuel-marking programme as it considers the National Petroleum Authority Bill. The group says newer monitoring technology may reduce duplication and costs.",
+      "source": "Citi Newsroom",
+      "url": "https://www.citinewsroom.com/2026/11/cemse-proposes-review-of-fuel-marking-costs-as-parliament-considers-npa-bill/",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "Ghana"
+      ]
+    },
+    {
+      "slug": "burkina-faso-modern-markets-raaga-104-billion-cfa",
+      "section": "business",
+      "sectionLabel": "Business",
+      "title": "Burkina Faso plans CFA104bn modern market project in two cities",
+      "summary": "The government plans to invest about CFA104.4 billion in the RAAGA project to build modern market complexes in Ouagadougou and Bobo-Dioulasso. Planned facilities include shops, food areas, parking, health and administrative services.",
+      "source": "Burkina24",
+      "url": "https://burkina24.com/2026/11/20/burkina-faso-1043-milliards-fcfa-pour-la-construction-de-marches-modernes-a-ouagadougou-et-bobo-dioulasso/",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "Burkina Faso"
+      ]
+    },
+    {
+      "slug": "burkina-mali-transboundary-water-roadmap-2027-2029",
+      "section": "africa",
+      "sectionLabel": "Africa",
+      "title": "Burkina Faso and Mali agree cross-border water roadmap for 2027–2029",
+      "summary": "Officials from Burkina Faso and Mali have adopted a three-year roadmap to improve the joint management of shared water resources. Priorities include climate and hydrological data sharing, pollution prevention and early warning for floods and droughts.",
+      "source": "Burkina24",
+      "url": "https://burkina24.com/2026/11/20/gestion-des-ressources-en-eau-le-burkina-faso-et-le-mali-se-dotent-dune-feuille-de-route-2027-2029/",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "Burkina Faso",
+        "Mali"
+      ]
+    },
+    {
+      "slug": "bobo-dioulasso-chamber-commerce-visits-local-processing-industries",
+      "section": "business",
+      "sectionLabel": "Business",
+      "title": "Burkina Faso chamber of commerce visits Bobo-Dioulasso factories",
+      "summary": "The Chamber of Commerce and Industry has visited several processing businesses in Bobo-Dioulasso to understand their operating challenges. Companies raised issues including finance, energy costs, raw-material supply and logistics while showcasing local maize, cashew, cotton and textile production.",
+      "source": "Burkina24",
+      "url": "https://burkina24.com/2026/11/20/bobo-dioulasso-la-chambre-de-commerce-a-lecoute-des-unites-de-transformation/",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "Burkina Faso"
+      ]
+    },
+    {
+      "slug": "burkina-faso-announces-december-11-military-parade",
+      "section": "africa",
+      "sectionLabel": "Africa",
+      "title": "Burkina Faso announces major military parade for December 11 celebration",
+      "summary": "Burkina Faso says its December 11 national celebration in Ouagadougou will include a major military parade. Regional organising committees have also been established as part of preparations for the event.",
+      "source": "Burkina24",
+      "url": "https://burkina24.com/2026/11/20/burkina-faso-une-grande-parade-militaire-annoncee-a-ouagadougou-pour-le-11-decembre-2026/",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "Burkina Faso"
+      ]
+    },
+    {
+      "slug": "burkina-faso-itel-energy-opens-ouagadougou-showroom",
+      "section": "business",
+      "sectionLabel": "Business",
+      "title": "Itel Energy opens first showroom in Burkina Faso",
+      "summary": "Itel Energy has opened its first Ouagadougou showroom, offering lithium batteries and inverters for homes, shops and industrial users. The distributor says the outlet will provide product guidance and after-sales support.",
+      "source": "Burkina24",
+      "url": "https://burkina24.com/2026/11/19/burkina-faso-itel-energy-ouvre-son-premier-showroom-a-ouagadougou/",
+      "published": "2026-11-19",
+      "added": "2026-11-20",
+      "countries": [
+        "Burkina Faso"
+      ]
+    },
+    {
+      "slug": "kenya-targets-january-2027-release-of-kcse-results",
+      "section": "africa",
+      "sectionLabel": "Africa",
+      "title": "Kenya targets January 2027 release of KCSE examination results",
+      "summary": "Kenya’s education ministry says marking of the 2026 KCSE scripts will begin promptly, with about 34,170 examiners expected at 41 centres. More than one million candidates sat the national examination.",
+      "source": "KBC Digital",
+      "url": "https://www.kbc.co.ke/government-targets-january-release-of-kcse-results/",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "Kenya"
+      ]
+    },
+    {
+      "slug": "kenya-2026-kcse-examinations-end-after-final-physics-paper",
+      "section": "africa",
+      "sectionLabel": "Africa",
+      "title": "Kenya’s 2026 KCSE examinations conclude after final physics paper",
+      "summary": "The final Physics Practical paper brought the 2026 Kenya Certificate of Secondary Education examinations to a close. More than 1.04 million candidates completed the assessment across 10,693 examination centres.",
+      "source": "KBC Digital",
+      "url": "https://www.kbc.co.ke/final-physics-paper-marks-end-of-2026-kcse/",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "Kenya"
+      ]
+    },
+    {
+      "slug": "kenya-instant-payment-system-governance-gaps-report",
+      "section": "business",
+      "sectionLabel": "Business",
+      "title": "Governance and interoperability gaps slow Kenya’s instant-payment ambitions",
+      "summary": "A 2026 AfricaNenda report says Kenya’s PesaLink and mobile-money systems still face governance, interoperability and consumer-protection gaps. The report calls for stronger participation and more integrated payment infrastructure.",
+      "source": "KBC Digital",
+      "url": "https://www.kbc.co.ke/governance-gaps-slow-kenyas-instant-payment-ambitions/",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "Kenya"
+      ]
+    },
+    {
+      "slug": "kenya-court-clears-extradition-brian-kiptoo-kiplagat-uk",
+      "section": "africa",
+      "sectionLabel": "Africa",
+      "title": "Kenyan court clears extradition of murder suspect to the UK",
+      "summary": "A Nairobi court has ruled that legal requirements have been met for Brian Kiprop Kiplagat’s extradition to the United Kingdom. He will remain in custody pending surrender, subject to a 15-day appeal window.",
+      "source": "KBC Digital",
+      "url": "https://www.kbc.co.ke/dpp-secures-extradition-of-brian-kiptoo-kiplagat-to-uk-over-murder-of-kenyan-woman/",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "Kenya"
+      ]
+    },
     {
       "slug": "south-africa-president-silicon-valley-investors-growth-target",
       "section": "business",
