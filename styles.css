@@ -319,3 +319,24 @@ button,.cat,.install,.connect-promo__cta,.search button{min-height:40px}
   .foot__cols{grid-template-columns:minmax(0,1fr)}
   .foot__cols>div:last-child{grid-column:auto}
 }
+
+
+/* Viewport overflow guard: stop the document itself drifting sideways.
+   Inner news rails remain independently swipeable. */
+*,*::before,*::after{box-sizing:border-box}
+html{width:100%;max-width:100%;overflow-x:clip}
+body{width:100%;max-width:100%;min-width:0;overflow-x:clip}
+#main,#homeView{width:100%;max-width:100%;min-width:0;overflow-x:clip}
+#homeView>*{min-width:0;max-width:100%}
+#countryDeskGrid,.country-desk,.country-desk__track,.rail,.rail__track,.feed{min-width:0;max-width:100%}
+.country-desk__track,.rail__track,.cats{overscroll-behavior-x:contain;touch-action:pan-x pan-y}
+.country-desk__track{width:100%}
+.masthead__bar,.masthead__tools,.edition,.foot__inner,.foot__base{min-width:0;max-width:100%}
+.masthead__side,.brand,.country-desk__head,.rail__head{min-width:0}
+@media(max-width:720px){
+  #main,#homeView{overflow-x:clip}
+  .wrap{width:100%;max-width:100%;min-width:0}
+  .country-desk__track{grid-auto-columns:minmax(0,86%);width:100%}
+  .rail__track{grid-auto-columns:minmax(0,84%);width:100%}
+  .cats{max-width:100%;min-width:0}
+}
