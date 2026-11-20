@@ -260,7 +260,7 @@
     document.addEventListener('click', function (ev) {
       var share = ev.target.closest ? ev.target.closest('.share-story') : null;
       if (share) {
-        var storyMatch = (location.hash || '').match(/^#\\/story\\/(.+)$/);
+        var storyMatch = (location.hash || '').match(/^#\/story\/(.+)$/);
         var story = storyMatch ? state.stories.filter(function (x) { return x.slug === decodeURIComponent(storyMatch[1]); })[0] : null;
         if (!story) return;
         var shareData = { title: story.title + ' · JagX Pulse', text: story.summary, url: location.href };
