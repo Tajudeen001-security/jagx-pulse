@@ -61,8 +61,12 @@ shown on every card and article page.
 
 ## Refresh schedule
 
-**Twenty-eight refreshes a day, every hour on the hour** (`0 * * * *`, WAT) — roughly 12 new
-stories per refresh, about 330 a day, building the archive toward **500 stories**. Each refresh:
+**Editorial target: seven editions a day** (06:00, 09:00, 12:00, 15:00, 18:00, 21:00 and 23:00 WAT).
+The edition metadata is the source of truth for the most recently published update. A schedule in
+documentation is not proof that a refresh or social post ran: only a successful, source-checked
+edition commit and recorded platform post ID count as completed work. Do not label the newsroom
+live or claim automatic publishing unless the corresponding scheduled workflow and credentials
+are configured and verified. Each verified refresh should:
 
 1. gathers new stories from the sources and cross-checks each across at least two,
 2. **appends** them to `data/stories.json` (older stories keep their original dates and stay visible),
