@@ -5,6 +5,34 @@
   "refreshSchedule": "Daily rolling editions · New stories are added without removing the archive",
   "stories": [
     {
+      "slug": "south-africa-records-5590-murders-in-three-months",
+      "section": "africa",
+      "sectionLabel": "Africa",
+      "title": "South Africa records 5,590 murders in three months despite year-on-year decline",
+      "summary": "Police statistics show 5,590 murders between July and September 2026—an average of 60 a day—even as the figure fell by more than 1,600 compared with the same period a year earlier. Acting Police Minister Firoz Cachalia said violence remains unacceptably high and varies sharply by province.",
+      "source": "eNCA",
+      "url": "https://www.enca.com/news-top-stories-videos/sa-records-average-60-murders-day-despite-decline-violent-crime",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "South Africa"
+      ]
+    },
+    {
+      "slug": "durban-port-backlog-delays-30-shipments-of-essential-medicines",
+      "section": "health",
+      "sectionLabel": "Health",
+      "title": "Durban port backlog leaves 30 shipments of essential medicines delayed",
+      "summary": "South Africa’s health director-general told Parliament that 30 shipments of essential medicines were caught in Durban port congestion, raising concern about hospital and clinic supplies. The department says contingency measures are in place while authorities work to clear the backlog.",
+      "source": "eNCA",
+      "url": "https://www.enca.com/business-top-stories-videos/durban-port-backlog-puts-medicine-supplies-and-freight-under-pressure",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "South Africa"
+      ]
+    },
+    {
       "slug": "kenya-courts-handle-more-than-15000-child-related-cases",
       "section": "africa",
       "sectionLabel": "Africa",
