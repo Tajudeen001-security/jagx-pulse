@@ -191,3 +191,32 @@ button,input{font:inherit;color:inherit}
   *{animation:none!important;transition:none!important}
   .card:hover{transform:none}
 }
+
+
+/* Article sharing */
+.article__share {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .75rem;
+  margin: 1.5rem 0;
+}
+.share-story {
+  appearance: none;
+  border: 1px solid var(--gold, #c4a574);
+  border-radius: 999px;
+  background: transparent;
+  color: inherit;
+  padding: .7rem 1.1rem;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .18s ease, color .18s ease, transform .18s ease;
+}
+.share-story:hover,
+.share-story:focus-visible {
+  background: var(--gold, #c4a574);
+  color: #0a0a0a;
+}
+.share-story:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.share-status { color: var(--muted, #aaa); font-size: .875rem; }
