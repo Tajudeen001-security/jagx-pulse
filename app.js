@@ -32,12 +32,17 @@
   }
 
   function fmtDate(iso) {
+    var dateOnly = /^\\d{4}-\\d{2}-\\d{2}$/.test(String(iso || ''));
     var d = new Date(iso);
     if (isNaN(d.getTime())) return '';
     var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    var day = dateOnly ? Number(String(iso).slice(8, 10)) : d.getDate();
+    var month = dateOnly ? Number(String(iso).slice(5, 7)) - 1 : d.getMonth();
+    var year = dateOnly ? Number(String(iso).slice(0, 4)) : d.getFullYear();
+    if (dateOnly) return day + ' ' + months[month] + ' ' + year;
     var hh = String(d.getHours()).padStart(2, '0');
     var mm = String(d.getMinutes()).padStart(2, '0');
-    return d.getDate() + ' ' + months[d.getMonth()] + ' ' + d.getFullYear() + ' · ' + hh + ':' + mm + ' WAT';
+    return day + ' ' + months[month] + ' ' + year + ' · ' + hh + ':' + mm + ' WAT';
   }
 
   function ageLabel(iso) {
