@@ -220,3 +220,39 @@ button,input{font:inherit;color:inherit}
 }
 .share-story:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
 .share-status { color: var(--muted, #aaa); font-size: .875rem; }
+
+
+/* ---------- Africa-wide edition and JagX Connect advertisement ---------- */
+.connect-promo{margin:28px 0 34px;padding:22px 24px;border:1px solid #3b3327;border-radius:14px;background:linear-gradient(110deg,#17130e 0%,#111 58%,#171717 100%);position:relative;overflow:hidden}
+.connect-promo::after{content:"";position:absolute;width:230px;height:230px;border:1px solid rgba(196,165,116,.12);border-radius:50%;right:-70px;top:-145px;pointer-events:none}
+.connect-promo__eyebrow,.africa-today__kicker{font-size:.66rem;letter-spacing:.17em;text-transform:uppercase;color:var(--gold);font-weight:700;margin:0 0 12px}
+.connect-promo__main{display:flex;align-items:center;gap:18px}
+.connect-promo__mark{width:58px;height:58px;flex:0 0 58px;display:grid;place-items:center;border:1px solid var(--gold-dim);border-radius:13px;background:#0d0d0d}
+.connect-promo__mark img{width:42px;height:42px}
+.connect-promo__copy{flex:1;min-width:0}
+.connect-promo__copy h2{font-family:var(--serif);font-size:clamp(1.1rem,2.2vw,1.55rem);line-height:1.2;margin:0 0 5px;color:#fff}
+.connect-promo__copy p{font-size:.86rem;color:var(--muted);margin:0;max-width:68ch}
+.connect-promo__cta{flex:0 0 auto;display:inline-flex;align-items:center;gap:12px;padding:11px 17px;border-radius:999px;background:var(--gold);color:#111;font-size:.82rem;font-weight:700}
+.connect-promo__cta:hover{background:var(--gold-soft)}
+.africa-today{margin:38px 0 8px}
+.africa-today__head{display:flex;justify-content:space-between;align-items:end;gap:16px;border-bottom:1px solid var(--line);padding-bottom:13px;margin-bottom:20px}
+.africa-today__kicker{margin:0 0 3px}
+.africa-today__head h2{font-family:var(--serif);font-size:1.65rem;line-height:1.2;color:#fff;margin:0}
+.africa-today__head>span{font-size:.7rem;color:var(--muted-2);text-transform:uppercase;letter-spacing:.08em}
+.africa-region{margin:0 0 28px}
+.africa-region__head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:12px}
+.africa-region__head h3{font-family:var(--serif);font-size:1.15rem;color:var(--gold-soft);margin:0;font-weight:600}
+.africa-region__head span{font-size:.68rem;color:var(--muted-2);letter-spacing:.06em;text-transform:uppercase}
+.africa-region__track{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(250px,calc(25% - 12px));gap:13px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}
+.africa-region__track>.card{scroll-snap-align:start}
+.africa-region__track .card__body{padding:13px}
+.africa-region__track .card__title{font-size:.98rem}
+.africa-region__track .card__sum{font-size:.79rem}
+@media(max-width:760px){
+ .connect-promo{padding:18px 16px}
+ .connect-promo__main{align-items:flex-start;flex-wrap:wrap}
+ .connect-promo__copy{flex:1 1 calc(100% - 78px)}
+ .connect-promo__cta{margin-left:76px}
+ .africa-region__track{grid-auto-columns:minmax(245px,84%)}
+ .africa-today__head h2{font-size:1.4rem}
+}
