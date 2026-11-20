@@ -32,7 +32,7 @@
   }
 
   function fmtDate(iso) {
-    var dateOnly = /^\\d{4}-\\d{2}-\\d{2}$/.test(String(iso || ''));
+    var dateOnly = /^\d{4}-\d{2}-\d{2}$/.test(String(iso || ''));
     var d = new Date(iso);
     if (isNaN(d.getTime())) return '';
     var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
