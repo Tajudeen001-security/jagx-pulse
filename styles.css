@@ -222,37 +222,100 @@ button,input{font:inherit;color:inherit}
 .share-status { color: var(--muted, #aaa); font-size: .875rem; }
 
 
-/* ---------- Africa-wide edition and JagX Connect advertisement ---------- */
-.connect-promo{margin:28px 0 34px;padding:22px 24px;border:1px solid #3b3327;border-radius:14px;background:linear-gradient(110deg,#17130e 0%,#111 58%,#171717 100%);position:relative;overflow:hidden}
-.connect-promo::after{content:"";position:absolute;width:230px;height:230px;border:1px solid rgba(196,165,116,.12);border-radius:50%;right:-70px;top:-145px;pointer-events:none}
-.connect-promo__eyebrow,.africa-today__kicker{font-size:.66rem;letter-spacing:.17em;text-transform:uppercase;color:var(--gold);font-weight:700;margin:0 0 12px}
-.connect-promo__main{display:flex;align-items:center;gap:18px}
-.connect-promo__mark{width:58px;height:58px;flex:0 0 58px;display:grid;place-items:center;border:1px solid var(--gold-dim);border-radius:13px;background:#0d0d0d}
-.connect-promo__mark img{width:42px;height:42px}
-.connect-promo__copy{flex:1;min-width:0}
-.connect-promo__copy h2{font-family:var(--serif);font-size:clamp(1.1rem,2.2vw,1.55rem);line-height:1.2;margin:0 0 5px;color:#fff}
-.connect-promo__copy p{font-size:.86rem;color:var(--muted);margin:0;max-width:68ch}
-.connect-promo__cta{flex:0 0 auto;display:inline-flex;align-items:center;gap:12px;padding:11px 17px;border-radius:999px;background:var(--gold);color:#111;font-size:.82rem;font-weight:700}
-.connect-promo__cta:hover{background:var(--gold-soft)}
-.africa-today{margin:38px 0 8px}
-.africa-today__head{display:flex;justify-content:space-between;align-items:end;gap:16px;border-bottom:1px solid var(--line);padding-bottom:13px;margin-bottom:20px}
-.africa-today__kicker{margin:0 0 3px}
-.africa-today__head h2{font-family:var(--serif);font-size:1.65rem;line-height:1.2;color:#fff;margin:0}
-.africa-today__head>span{font-size:.7rem;color:var(--muted-2);text-transform:uppercase;letter-spacing:.08em}
-.africa-region{margin:0 0 28px}
-.africa-region__head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:12px}
-.africa-region__head h3{font-family:var(--serif);font-size:1.15rem;color:var(--gold-soft);margin:0;font-weight:600}
-.africa-region__head span{font-size:.68rem;color:var(--muted-2);letter-spacing:.06em;text-transform:uppercase}
-.africa-region__track{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(250px,calc(25% - 12px));gap:13px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}
-.africa-region__track>.card{scroll-snap-align:start}
-.africa-region__track .card__body{padding:13px}
-.africa-region__track .card__title{font-size:.98rem}
-.africa-region__track .card__sum{font-size:.79rem}
-@media(max-width:760px){
- .connect-promo{padding:18px 16px}
- .connect-promo__main{align-items:flex-start;flex-wrap:wrap}
- .connect-promo__copy{flex:1 1 calc(100% - 78px)}
- .connect-promo__cta{margin-left:76px}
- .africa-region__track{grid-auto-columns:minmax(245px,84%)}
- .africa-today__head h2{font-size:1.4rem}
+
+/* Country-by-country Africa desks */
+.country-desk{margin:0 0:30px;min-width:0}
+.country-desk__head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 12px;padding-bottom:9px;border-bottom:1px solid var(--line)}
+.country-desk__head h3{font-family:var(--serif);font-size:1.18rem;line-height:1.25;color:var(--gold-soft);margin:0;font-weight:600}
+.country-desk__head span{font-size:.7rem;color:var(--muted-2);letter-spacing:.07em;text-transform:uppercase;white-space:nowrap}
+.country-desk__track{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(260px,calc(33.333% - 12px));gap:13px;overflow-x:auto;overflow-y:hidden;padding:2px 2px 12px;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-width:thin}
+.country-desk__track>.card{min-width:0;scroll-snap-align:start}
+.country-desk__track .card__body{padding:13px}
+.country-desk__track .card__title{font-size:.98rem}
+.country-desk__track .card__meta{overflow-wrap:anywhere}
+.country-desk__track::-webkit-scrollbar{height:5px}
+.country-desk__track::-webkit-scrollbar-thumb{background:var(--line-2);border-radius:99px}
+
+/* Mobile layout hardening: keep page width stable and make every control touch-friendly */
+html,body{width:100%;max-width:100%;overflow-x:hidden}
+.wrap{min-width:0}
+#main,.masthead,.foot,.advertise{min-width:0;max-width:100%}
+.masthead__bar,.masthead__tools,.edition,.hero,.rail,.feed,.country-desk,.connect-promo{min-width:0}
+.card__title,.hero__title,.article__title,.connect-promo__copy h2{overflow-wrap:anywhere}
+button,.cat,.install,.connect-promo__cta,.search button{min-height:40px}
+@media(max-width:720px){
+  .wrap{padding-left:13px;padding-right:13px}
+  .masthead__bar{gap:8px;padding-top:10px;padding-bottom:9px}
+  .brand{gap:8px}
+  .brand__crest{width:38px;height:38px;flex-basis:38px}
+  .brand__name{font-size:1.18rem}
+  .brand__tag{font-size:.57rem;letter-spacing:.08em;white-space:normal}
+  .masthead__side{gap:6px}
+  .install{padding:7px 11px;font-size:.73rem;white-space:nowrap}
+  .masthead__tools{padding-top:0;padding-bottom:9px;gap:8px}
+  .cats{width:100%;max-width:100%;flex:0 0 auto;gap:6px;padding:2px 0 6px;overscroll-behavior-x:contain}
+  .cat{padding:7px 12px;font-size:.77rem;min-height:36px}
+  .search{width:100%;min-width:0;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:7px}
+  .search input{width:100%;min-width:0;padding:10px 13px;font-size:16px}
+  .search button{padding:8px 13px}
+  .edition{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 10px;padding-bottom:9px;font-size:.66rem;line-height:1.35}
+  .edition__live{grid-row:1}
+  #edUpdated{grid-column:2;min-width:0;overflow-wrap:anywhere}
+  #edCount{grid-column:1}
+  #edVersion{grid-column:2;min-width:0;overflow-wrap:anywhere}
+  #heroSlot{margin:14px 0 8px}
+  .hero{grid-template-columns:minmax(0,1fr);border-radius:11px}
+  .hero__media{min-height:0;aspect-ratio:16/9}
+  .hero__body{padding:17px 15px;gap:10px}
+  .hero__title{font-size:clamp(1.42rem,7vw,1.9rem);line-height:1.13}
+  .hero__sum{font-size:.9rem;line-height:1.5}
+  .hero__meta{font-size:.69rem;gap:6px 10px}
+  .connect-promo{margin:18px 0 24px;padding:16px 14px;border-radius:11px}
+  .connect-promo__main{display:grid;grid-template-columns:42px minmax(0,1fr);gap:10px}
+  .connect-promo__mark{width:42px;height:42px;flex-basis:42px}
+  .connect-promo__mark img{width:32px;height:32px}
+  .connect-promo__copy h2{font-size:1.08rem}
+  .connect-promo__copy p{font-size:.78rem;line-height:1.45}
+  .connect-promo__cta{grid-column:2;justify-self:start;margin:2px 0 0;padding:9px 13px;font-size:.76rem;min-height:38px}
+  .africa-today{margin:24px 0 4px}
+  .africa-today__head{align-items:flex-end;gap:8px;padding-bottom:10px;margin-bottom:15px}
+  .africa-today__head h2{font-size:1.32rem}
+  .africa-today__head>span{font-size:.6rem;text-align:right;max-width:45%;line-height:1.3}
+  .country-desk{margin-bottom:22px}
+  .country-desk__head h3{font-size:1.08rem}
+  .country-desk__head span{font-size:.62rem}
+  .country-desk__track{grid-auto-columns:minmax(0,86%);gap:10px;padding-bottom:10px}
+  .country-desk__track .card__body{padding:12px}
+  .country-desk__track .card__title{font-size:.96rem}
+  .rail{margin-top:26px}
+  .rail__head{align-items:flex-start;gap:8px;margin-bottom:12px}
+  .rail__head h2{font-size:1.12rem}
+  .rail__note{font-size:.62rem;text-align:right}
+  .rail__track{grid-auto-columns:minmax(0,84%);gap:11px;overscroll-behavior-x:contain}
+  .grid{grid-template-columns:minmax(0,1fr);gap:13px}
+  .card{min-width:0}
+  .card__body{padding:13px}
+  .card__title{font-size:1rem}
+  .card__sum{font-size:.82rem}
+  .card__meta{overflow-wrap:anywhere}
+  .article{margin-top:18px}
+  .article__title{font-size:clamp(1.55rem,7vw,2rem)}
+  .article__lead{font-size:1rem}
+  .article__body p{font-size:.94rem}
+  .advertise__inner{padding-top:28px;padding-bottom:28px;gap:20px}
+  .advertise__copy h2{font-size:1.4rem}
+  .advertise__card{padding:20px 15px}
+  .foot{padding-top:28px}
+  .foot__inner{gap:22px}
+  .foot__cols{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+  .foot__cols>div:last-child{grid-column:1/-1}
+  .foot__base{gap:7px 12px;font-size:.68rem}
+}
+@media(max-width:360px){
+  .brand__tag{display:none}
+  .masthead__bar{align-items:center}
+  .country-desk__track{grid-auto-columns:minmax(0,91%)}
+  .rail__track{grid-auto-columns:minmax(0,90%)}
+  .foot__cols{grid-template-columns:minmax(0,1fr)}
+  .foot__cols>div:last-child{grid-column:auto}
 }
