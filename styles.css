@@ -224,7 +224,7 @@ button,input{font:inherit;color:inherit}
 
 
 /* Country-by-country Africa desks */
-.country-desk{margin:0 0:30px;min-width:0}
+.country-desk{margin:0 0 30px;min-width:0}
 .country-desk__head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 12px;padding-bottom:9px;border-bottom:1px solid var(--line)}
 .country-desk__head h3{font-family:var(--serif);font-size:1.18rem;line-height:1.25;color:var(--gold-soft);margin:0;font-weight:600}
 .country-desk__head span{font-size:.7rem;color:var(--muted-2);letter-spacing:.07em;text-transform:uppercase;white-space:nowrap}
