@@ -5,6 +5,62 @@
   "refreshSchedule": "Daily rolling editions · New stories are added without removing the archive",
   "stories": [
     {
+      "slug": "aiden-markram-to-lead-south-africa-in-second-bangladesh-test",
+      "section": "sports",
+      "sectionLabel": "Sports",
+      "title": "Aiden Markram to captain South Africa in second Bangladesh Test",
+      "summary": "Aiden Markram will lead South Africa in the second Test against Bangladesh after Temba Bavuma was ruled out with a calf injury. Cricket South Africa also named its ODI and T20 squads for the December series.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/sports/cricket/markram-lead-s-africa-second-test-against-bangladesh-t20-odi-squads-named-2026-11-20/",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "South Africa"
+      ]
+    },
+    {
+      "slug": "south-africa-npa-promises-tougher-action-against-gbv-perpetrators",
+      "section": "africa",
+      "sectionLabel": "Africa",
+      "title": "South Africa’s NPA promises tougher action against gender-based violence",
+      "summary": "The National Prosecuting Authority says it is recording more convictions and will push for lengthy sentences for perpetrators. The discussion comes amid more than 9,200 rapes reported between April and June, with many other cases believed to go unreported.",
+      "source": "eNCA",
+      "url": "https://www.enca.com/news-top-stories-videos/npa-promises-tougher-action-against-gbv-perpetrators",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "South Africa"
+      ]
+    },
+    {
+      "slug": "mpumalanga-launches-16-days-activism-campaign-against-gbv",
+      "section": "africa",
+      "sectionLabel": "Africa",
+      "title": "Mpumalanga launches 16 Days campaign against gender-based violence",
+      "summary": "Mpumalanga has launched its 16 Days of Activism campaign, with Deputy President Paul Mashatile scheduled to deliver the keynote address in Middelburg. The campaign calls for collective action against gender-based violence and femicide.",
+      "source": "eNCA",
+      "url": "https://www.enca.com/news-top-stories/gbv-crisis-focus-mpumalanga-launches-16-days-campaign",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "South Africa"
+      ]
+    },
+    {
+      "slug": "suliman-carrim-returns-to-court-over-alleged-bail-breach",
+      "section": "africa",
+      "sectionLabel": "Africa",
+      "title": "Businessman Suliman Carrim returns to court over alleged bail breach",
+      "summary": "North West businessman Suliman Carrim is expected in Pretoria court over allegations that his legal team failed to meet a bail condition requiring an in-person appearance before the Madlanga Commission to arrange his testimony.",
+      "source": "eNCA",
+      "url": "https://www.enca.com/news-top-stories/suliman-carrim-back-court-over-alleged-breach-bail-conditions",
+      "published": "2026-11-20",
+      "added": "2026-11-20",
+      "countries": [
+        "South Africa"
+      ]
+    },
+    {
       "slug": "ghana-judicial-service-meets-unions-to-prevent-strike",
       "section": "africa",
       "sectionLabel": "Africa",
