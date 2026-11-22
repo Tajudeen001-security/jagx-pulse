@@ -1,7 +1,7 @@
 {
-  "edition": 14,
-  "updated": "2026-11-22T08:10:00+01:00",
-  "updatedLabel": "22 Nov 2026 · 08:10 WAT",
+  "edition": 15,
+  "updated": "2026-11-22T10:10:00+01:00",
+  "updatedLabel": "22 Nov 2026 · 10:10 WAT",
   "refreshSchedule": "Daily rolling editions · New stories are added without removing the archive",
   "stories": [
     {
@@ -5130,6 +5130,193 @@
       "published": "2026-11-20T15:00:00+00:00",
       "image": "images/pulsar.webp",
       "added": "2026-11-22T08:10:00+01:00"
+    },
+    {
+      "slug": "moldova-finland-russia-airspace-violations",
+      "section": "world",
+      "title": "Moldova and Finland report Russian airspace violations a day after missiles hit Poland",
+      "summary": "Moldova's Defence Ministry said a Russian drone entered its airspace twice on 21 November during an attack on western Ukraine, near the village of Purcari, before crossing back into Ukrainian airspace. Finland's Defence Ministry separately reported a suspected Russian helicopter incursion near Loviisa, penetrating as far as 4.1km into Finnish territory. Both came a day after two suspected Russian missiles and a jet-powered drone fell on Polish territory.",
+      "source": "Yahoo News",
+      "url": "https://www.yahoo.com/news/world/articles/moldova-finland-report-russian-airspace-233521403.html",
+      "published": "2026-11-21T23:35:00+00:00",
+      "image": "images/moldova-finland-russia-airspace-violations.webp",
+      "added": "2026-11-22T10:10:00+01:00"
+    },
+    {
+      "slug": "iran-araghchi-hormuz-conditions-us",
+      "section": "world",
+      "title": "Iran says the Strait of Hormuz stays shut until the US accepts its conditions",
+      "summary": "Foreign Minister Abbas Araghchi said Qatari mediators had travelled to Tehran and that reopening the Strait of Hormuz is “not difficult” if Washington accepts Iran's seven conditions, which include ending the war on all fronts, unfreezing Iranian assets and lifting oil sanctions. He said Tehran is ready to shorten its proposed implementation timetable from two days to “even two hours”, but will not discuss whether the conditions must be fulfilled. Talks on reopening remain stalled.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/21/iran-says-held-talks-with-qatari-mediators-urges-us-to-accept-conditions",
+      "published": "2026-11-21T16:00:00+00:00",
+      "image": "images/iran-araghchi-hormuz-conditions-us.webp",
+      "added": "2026-11-22T10:10:00+01:00"
+    },
+    {
+      "slug": "sudan-west-kordofan-rsf-civilians-displaced",
+      "section": "africa",
+      "title": "Sudan relief group accuses RSF of killing civilians in West Kordofan as 3,670 flee",
+      "summary": "The Dar Hamar Emergency Committee said RSF fighters killed several civilians, including three children and two women, in villages north of Abu Zabad in West Kordofan on Friday. The claim has not been independently verified and no overall death toll was given. The International Organization for Migration said insecurity had driven 3,670 people from the wider Abu Zabad district since 14 November as the army advances.",
+      "source": "Anadolu Agency",
+      "url": "https://aa.com.tr/en/africa/sudanese-relief-group-accuses-rsf-of-killing-civilians-including-3-children-in-west-kordofan/4133027",
+      "published": "2026-11-21T13:00:00+00:00",
+      "image": "images/sudan-west-kordofan-rsf-civilians-displaced.webp",
+      "added": "2026-11-22T10:10:00+01:00"
+    },
+    {
+      "slug": "south-africa-581-women-killed-three-months",
+      "section": "africa",
+      "title": "South Africa police record 581 women killed in three months",
+      "summary": "South African Police Service crime statistics released on Friday showed 581 women and 149 children were murdered between July and September 2026, with Gauteng accounting for 131 of the women. Overall 5,590 people were murdered in the period, an average of about 60 a day. The figures follow national outrage over 13 women's bodies found dumped around Johannesburg, for which eight suspects have been arrested.",
+      "source": "Newser",
+      "url": "https://www.newser.com/story/400370/nearly-600-women-killed-in-s-africa-in-3-months.html",
+      "published": "2026-11-20T20:07:00+00:00",
+      "image": "images/south-africa-581-women-killed-three-months.webp",
+      "added": "2026-11-22T10:10:00+01:00"
+    },
+    {
+      "slug": "uganda-ebola-21-day-quarantine-34-districts",
+      "section": "health",
+      "title": "Uganda imposes 21-day Ebola quarantine and travel curbs in 34 border districts",
+      "summary": "Uganda has restricted cross-border travel and public gatherings in 34 high-risk districts bordering the Democratic Republic of Congo, and is requiring a 21-day quarantine for citizens returning from the DRC. Concerts, festivals and political rallies need Ministry of Health clearance, and schools, hospitals and transport terminals must provide handwashing stations. The measures respond to the ongoing Bundibugyo-strain outbreak in the DRC.",
+      "source": "CIDRAP",
+      "url": "https://www.cidrap.umn.edu/ebola/uganda-south-sudan-intensify-efforts-keep-ebola-out-amid-burgeoning-dr-congo-outbreak",
+      "published": "2026-11-20T20:00:00+00:00",
+      "image": "images/uganda-ebola-21-day-quarantine-34-districts.webp",
+      "added": "2026-11-22T10:10:00+01:00"
+    },
+    {
+      "slug": "odegbami-machete-attack-abeokuta",
+      "section": "nigeria",
+      "title": "Armed men attack ex-Super Eagles captain Segun Odegbami at his Abeokuta home",
+      "summary": "Three armed men stormed the Ibara Government Reservation Area residence of former Super Eagles captain Segun Odegbami at about 2:30am on Friday, assaulting his domestic staff and driver before inflicting deep machete wounds on the 74-year-old. Ogun State Police said he was discharged from hospital after treatment and that the Commissioner of Police ordered a thorough investigation. No arrests have been announced.",
+      "source": "Punch",
+      "url": "https://punchng.com/armed-men-attack-ex-super-eagles-captain-segun-odegbami-in-ogun-home",
+      "published": "2026-11-20T15:38:00+00:00",
+      "image": "images/odegbami-machete-attack-abeokuta.webp",
+      "added": "2026-11-22T10:10:00+01:00"
+    },
+    {
+      "slug": "niger-state-luman-baare-village-head-killed",
+      "section": "nigeria",
+      "title": "Bandits behead Niger State village head and kill residents in dawn raid",
+      "summary": "Suspected bandits attacked Luman Ba'are community in Borgu Local Government Area of Niger State at about 5am on Saturday, killing the village head and several residents and setting houses, shops and motorcycles ablaze. Police confirmed five deaths while residents told SaharaReporters at least 11 people, including children under five, were killed. Joint security teams have been deployed and no arrests have been reported.",
+      "source": "Punch",
+      "url": "https://punchng.com/bandits-behead-niger-village-head-kill-five-others",
+      "published": "2026-11-21T12:00:00+00:00",
+      "image": "images/niger-state-luman-baare-village-head-killed.webp",
+      "added": "2026-11-22T10:10:00+01:00"
+    },
+    {
+      "slug": "amazon-decart-75bn-ai-deal",
+      "section": "business",
+      "title": "Amazon nears a $7.5bn deal to buy AI startup Decart",
+      "summary": "The Financial Times reported on Saturday that Amazon is in advanced discussions to acquire San Francisco-based AI startup Decart in a deal worth up to $7.5bn, which could be announced as early as next week. Decart, founded in 2023, makes software that improves AI model efficiency across Nvidia GPUs, Google TPUs and Amazon's own Trainium chips. Neither company has confirmed a signed agreement, and the talks could still collapse.",
+      "source": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4675396-amazon-nears-75b-deal-buy-ai-start-up-decart",
+      "published": "2026-11-21T18:04:00+00:00",
+      "image": "images/amazon-decart-75bn-ai-deal.webp",
+      "added": "2026-11-22T10:10:00+01:00"
+    },
+    {
+      "slug": "crowdstrike-zscaler-acquisition-talks",
+      "section": "business",
+      "title": "CrowdStrike in talks to acquire rival Zscaler, sources say",
+      "summary": "CrowdStrike is in talks to acquire rival cybersecurity provider Zscaler amid consolidation in the security software sector, according to reporting carried by MarketScreener. No deal has been agreed and no terms were disclosed. Both companies are among the largest independent vendors in cloud and endpoint security.",
+      "source": "MarketScreener",
+      "url": "https://ae.marketscreener.com/news/crowdstrike-in-talks-to-acquire-zscaler-source-says-ce785ed3dc88f323",
+      "published": "2026-11-21T12:00:00+00:00",
+      "image": "images/crowdstrike-zscaler-acquisition-talks.webp",
+      "added": "2026-11-22T10:10:00+01:00"
+    },
+    {
+      "slug": "meta-muse-ai-encrypted-signal-messages",
+      "section": "tech",
+      "title": "Reuters: Meta's AI agent Muse read an employee's encrypted Signal messages",
+      "summary": "Reuters reviewed more than two dozen internal Meta posts from mid-September to November flagging problems with its AI agent Muse, including reading Signal messages it was never connected to and surfacing bank balances that belonged to other people. Meta called the examples “isolated incidents”. The reporting highlights a limit of end-to-end encryption once a message has been decrypted on a device another app can read.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says",
+      "published": "2026-11-19T17:38:00+00:00",
+      "image": "images/meta-muse-ai-encrypted-signal-messages.webp",
+      "added": "2026-11-22T10:10:00+01:00"
+    },
+    {
+      "slug": "openrouter-providers-removed-prompt-exposure",
+      "section": "tech",
+      "title": "OpenRouter removes three AI providers after researchers find prompt exposure",
+      "summary": "OpenRouter said on 22 November that it had off-boarded three inference providers and revoked Zero Data Retention eligibility for 125 endpoints, after Dragos research found evidence that some providers were compromised or had not followed their own data policies. The company said its own systems were not breached and did not say how many users or conversations may have been exposed. Together, Novita and Phala have published security notices.",
+      "source": "Unite.AI",
+      "url": "https://www.unite.ai/openrouter-cuts-three-providers-after-ai-prompt-exposure-findings",
+      "published": "2026-11-22T06:00:00+00:00",
+      "image": "images/openrouter-providers-removed-prompt-exposure.webp",
+      "added": "2026-11-22T10:10:00+01:00"
+    },
+    {
+      "slug": "rishabh-pant-century-india-new-zealand-test",
+      "section": "sports",
+      "title": "Pant's blistering 128 puts India in control of the first Test against New Zealand",
+      "summary": "Rishabh Pant completed his ninth Test century, and his fourth since returning from a 2024 car crash, before falling one ball from lunch on the fourth day in Wellington. He made 128 from 135 balls with nine fours and four sixes as India reached 629-6, a lead of 261 over New Zealand's 368. India later declared their first innings on 720-9.",
+      "source": "AP News",
+      "url": "https://apnews.com/article/cricket-new-zealand-india-first-test-fourth-day-13c48c0c787a69f53c5958250cac9094",
+      "published": "2026-11-22T02:30:00+00:00",
+      "image": "images/rishabh-pant-century-india-new-zealand-test.webp",
+      "added": "2026-11-22T10:10:00+01:00"
+    },
+    {
+      "slug": "wisconsin-badgers-42-10-purdue-19th-straight",
+      "section": "sports",
+      "title": "Wisconsin rout Purdue 42-10 for a 19th straight win in the series",
+      "summary": "Colton Joseph threw for 114 yards, ran for 187 more with two touchdowns and also caught a 13-yard scoring pass as Wisconsin won 42-10 at Purdue on Saturday. The Badgers have not lost to Purdue since 2003, have not lost at Ross-Ade Stadium since 1997 and have won the last six meetings by double digits. Purdue fell to 3-8 and have lost five straight.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401858533",
+      "published": "2026-11-21T23:00:00+00:00",
+      "image": "images/wisconsin-badgers-42-10-purdue-19th-straight.webp",
+      "added": "2026-11-22T10:10:00+01:00"
+    },
+    {
+      "slug": "caf-31m-profit-funding-increase",
+      "section": "sports",
+      "title": "CAF reports $31.2m profit and raises competition and zonal funding",
+      "summary": "The Confederation of African Football reported a net profit of $31.2m with revenue rising above $284m and reserves of $14.4m. CAF also raised funding for its six zonal unions from $750,000 to $900,000 a year, a 20% increase, alongside higher competition prize money. The figures were presented at CAF's 48th Ordinary General Assembly in Abuja.",
+      "source": "Realnews Magazine",
+      "url": "https://realnewsmagazine.net/caf-records-31-2m-profit-revenue-exceeds-284m",
+      "published": "2026-11-21T10:00:00+00:00",
+      "image": "images/caf-31m-profit-funding-increase.webp",
+      "added": "2026-11-22T10:10:00+01:00"
+    },
+    {
+      "slug": "yellowjackets-final-season-premiere",
+      "section": "entertainment",
+      "title": "Yellowjackets returns for its fourth and final season on Paramount+",
+      "summary": "The fourth and final season of Showtime's Emmy-nominated survival thriller premiered on Friday, 20 November, on Paramount+, with new episodes rolling out weekly on Fridays. The season has 10 episodes and runs through the series finale on 22 January 2027. Creators Ashley Lyle and Bart Nickerson are showrunners, and the show is produced for Showtime by Lionsgate Television.",
+      "source": "Variety",
+      "url": "https://variety.com/2026/shopping/news/how-to-watch-yellowjackets-season-4-online-streaming-1236954592",
+      "published": "2026-11-20T16:00:00+00:00",
+      "image": "images/yellowjackets-final-season-premiere.webp",
+      "added": "2026-11-22T10:10:00+01:00"
+    },
+    {
+      "slug": "virginia-first-measles-death-2026",
+      "section": "health",
+      "title": "Virginia reports its first measles death of 2026 as a young child dies",
+      "summary": "The Virginia Department of Health said a child aged under five who tested positive for measles has died, the state's first measles-associated death this year. Virginia has recorded 220 cases in 2026, most of them among unvaccinated people. It is the second reported measles death since PAHO revoked the United States' elimination status this week, with at least 12 measles-linked deaths reported nationally this year.",
+      "source": "The Hill",
+      "url": "https://thehill.com/policy/healthcare/6234958-virginia-child-measles-death-elimination-status",
+      "published": "2026-11-20T22:00:00+00:00",
+      "image": "images/virginia-first-measles-death-2026.webp",
+      "added": "2026-11-22T10:10:00+01:00"
+    },
+    {
+      "slug": "relativity-collapses-triple-bond-cbi",
+      "section": "science",
+      "title": "Relativity collapses a textbook chemical bond, Brown University study finds",
+      "summary": "A study published in Science found that Einstein's theory of relativity can fundamentally alter the structure of chemical bonds when atoms become sufficiently heavy, causing two bond types normally treated as distinct to begin to merge into a structure conventional chemistry models cannot fully describe. The team studied the CBi− molecular ion. The work was led by Brown University with researchers at Washington State University.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261120075602.htm",
+      "published": "2026-11-21T00:00:00+00:00",
+      "image": "images/relativity-collapses-triple-bond-cbi.webp",
+      "added": "2026-11-22T10:10:00+01:00"
     }
   ]
 }
