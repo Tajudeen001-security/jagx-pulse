@@ -1,0 +1,25 @@
+{
+  "edition15": {
+    "ranAt": "2026-11-22T10:40:00+01:00",
+    "x": {
+      "status": "blocked",
+      "httpStatus": 403,
+      "error": "Your account is not permitted to access this feature.",
+      "attempted": 2,
+      "storiesTried": [
+        "aukus-marles-rejects-cbo-submarine-report",
+        "cop31-fossil-fuel-impasse-second-day-overtime"
+      ],
+      "note": "Account-level 403 on TWITTER_CREATION_OF_A_POST. GET /users/me succeeds (200), so the token is valid; the write scope is refused. 36 stories unposted (19 backlog from editions 13-14 + 17 new). Reconnect the X app."
+    },
+    "instagram": {
+      "status": "ok",
+      "posted": 3,
+      "mediaIds": [
+        "17875101024642839",
+        "17936100675411521",
+        "18042115904895816"
+      ]
+    }
+  }
+}
