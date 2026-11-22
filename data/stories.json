@@ -1,7 +1,7 @@
 {
- "edition": 13,
- "updated": "2026-11-22T05:07:07.931164+01:00",
- "updatedLabel": "22 Nov 2026 · 05:07 WAT",
+ "edition": 14,
+ "updated": "2026-11-22T08:10:00+01:00",
+ "updatedLabel": "22 Nov 2026 · 08:10 WAT",
  "refreshSchedule": "Daily rolling editions · New stories are added without removing the archive",
  "stories": [
   {
@@ -4970,6 +4970,160 @@
    "added": "2026-11-22T05:07:07.931164+01:00",
    "image": "images/bepicolombo-enters-orbit-around-mercury.webp",
    "imageCredit": "Mercury in false colour from MESSENGER (NASA)"
+  },
+  {
+   "slug": "cop31-fossil-fuel-impasse-second-day-overtime",
+   "section": "world",
+   "title": "Fossil fuel impasse pushes COP31 talks into a second day of overtime",
+   "summary": "Turkish officials asked negotiators at the COP31 summit in Antalya to consider a last-minute proposal after talks ran through the night without a deal. COP31 President Murat Kurum said the conference would reconvene on Sunday morning to approve the text, which was not immediately made public. An earlier draft drew strong condemnation for failing to mention fossil fuels, the largest contributors to climate change.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime",
+   "published": "2026-11-22T04:51:00+00:00",
+   "image": "images/cop31.webp",
+   "added": "2026-11-22T08:10:00+01:00"
+  },
+  {
+   "slug": "el-chapo-isidro-captured-eleven-killed-sinaloa",
+   "section": "world",
+   "title": "Eleven killed as Mexican forces capture cartel boss El Chapo Isidro",
+   "summary": "Mexico's defence ministry said seven alleged cartel gunmen and four soldiers died in the overnight operation that captured Fausto Isidro Meza Flores in Sinaloa state. Meza Flores, known as El Chapo Isidro and one of the FBI's ten most wanted fugitives, was flown to Mexico City on Saturday. Two other alleged cartel figures, including his reported second-in-command, were also captured.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/22/eleven-killed-in-burst-of-violence-during-mexican-cartel-leaders-capture",
+   "published": "2026-11-22T03:34:00+00:00",
+   "image": "images/cartel.webp",
+   "added": "2026-11-22T08:10:00+01:00"
+  },
+  {
+   "slug": "fbi-ncic-database-suspected-breach-trump",
+   "section": "tech",
+   "title": "FBI's national crime database suffers suspected breach, Trump says",
+   "summary": "President Donald Trump appeared to confirm a hack of the FBI's National Crime Information Center during a Fox News interview on Saturday, saying 'it's not good'. CNN and NBC reported the compromise citing people briefed on the matter, and a law enforcement source confirmed it to ABC News. The NCIC holds criminal records, warrants, stolen property and missing persons data used by police nationwide.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/21/fbi-national-crime-database-suffers-suspected-breach-reports",
+   "published": "2026-11-21T20:15:00+00:00",
+   "image": "images/fbi.webp",
+   "added": "2026-11-22T08:10:00+01:00"
+  },
+  {
+   "slug": "oyo-summit-tshisekedi-ruto-congo-kenya-rift",
+   "section": "africa",
+   "title": "Four African leaders meet in Oyo to try to end DR Congo-Kenya rift",
+   "summary": "Congo-Brazzaville's Denis Sassou Nguesso is hosting DR Congo's Felix Tshisekedi, Kenya's William Ruto and Togo's Faure Gnassingbe at a summit in Oyo on Sunday aimed at ending the Kinshasa-Nairobi diplomatic crisis. Kinshasa accused Nairobi of tolerating the political wing of M23 rebels, while Kenya said it could not restrict free speech. No agenda has been published and neither presidency commented before the talks.",
+   "source": "Daily News Egypt",
+   "url": "https://africa.dailynewsegypt.com/oyo-summit-tshisekedi-ruto",
+   "published": "2026-11-22T06:00:00+00:00",
+   "image": "images/oyo.webp",
+   "added": "2026-11-22T08:10:00+01:00"
+  },
+  {
+   "slug": "tanzania-english-proficiency-index-africa-2026",
+   "section": "africa",
+   "title": "Tanzania enters Africa's top 10 for English proficiency for the first time",
+   "summary": "Tanzania placed tenth in Africa with 477 points and 70th globally in the 2026 EF English Proficiency Index, according to The Citizen. South Africa led the continent with 588 points, followed by Zimbabwe on 587 and Kenya on 582, with Nigeria fourth on 578. The index is based on test results from more than 2.3 million adults across 117 countries who took the EF Standard English Test in 2025.",
+   "source": "The Citizen (Tanzania)",
+   "url": "https://www.instagram.com/p/DgCDs0-CArk",
+   "published": "2026-11-22T05:30:00+07:00",
+   "image": "images/tanzania.webp",
+   "added": "2026-11-22T08:10:00+01:00"
+  },
+  {
+   "slug": "tinubu-guarantees-power-supply-leyland-yutong-ibadan",
+   "section": "nigeria",
+   "title": "Tinubu guarantees improved power supply and announces Leyland factory revival",
+   "summary": "President Bola Tinubu told supporters at Mapo Hall in Ibadan on Saturday that he guarantees an improvement in electricity supply, crediting Power Minister Joseph Tegbe's team. He also announced a memorandum of understanding with Chinese manufacturer Yutong to reopen the defunct Leyland vehicle assembly plant in Ibadan. The rally flagged off the APC campaign in Oyo State ahead of the January 2027 election.",
+   "source": "Punch",
+   "url": "https://punchng.com/i-guarantee-improved-power-supply-tinubu",
+   "published": "2026-11-21T18:30:00+01:00",
+   "image": "images/tinubu.webp",
+   "added": "2026-11-22T08:10:00+01:00"
+  },
+  {
+   "slug": "anthropic-81-billion-ipo-largest-in-history",
+   "section": "business",
+   "title": "Anthropic raises $81.3bn in the largest IPO ever, then slides below its debut",
+   "summary": "Anthropic sold 980 million shares at $83 apiece on Nasdaq on 19 November, raising $81.34 billion and topping SpaceX's $75 billion listing earlier this year. The stock opened at $111.50 but closed Friday at $97.20 as the wider AI selloff caught up with it. The Claude developer's listing came in the middle of the Nasdaq's worst week in more than a year.",
+   "source": "Business Times",
+   "url": "https://www.businesstimes.com.sg/international/global/tech-in-asia/anthropics-after-party-south-east-asia-invited",
+   "published": "2026-11-21T12:00:00+08:00",
+   "image": "images/anthropic.webp",
+   "added": "2026-11-22T08:10:00+01:00"
+  },
+  {
+   "slug": "nvidia-worst-week-23pc-one-trillion-wiped",
+   "section": "business",
+   "title": "Nvidia loses 23% in a week, its worst run since 2008, as $1tn is wiped out",
+   "summary": "Nvidia shares fell 23% last week, including a 14% drop on Friday to $125.53, their lowest level since May 2025. The S&P 500 fell almost 8.6% for the week, its worst since the April 2025 tariff plunge, and joined the Nasdaq in correction territory. The selloff followed Jensen Huang's resignation as chief executive and a California attorney general subpoena of the company.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/investingclub/2026/11/21/during-wall-streets-worst-week-in-over-a-year-we-put-money-to-work-what-were-buying.html",
+   "published": "2026-11-21T14:22:00+00:00",
+   "image": "images/nvidia.webp",
+   "added": "2026-11-22T08:10:00+01:00"
+  },
+  {
+   "slug": "kansas-city-current-first-nwsl-title-spirit",
+   "section": "sports",
+   "title": "Kansas City Current win first NWSL title, beating Washington Spirit 2-1",
+   "summary": "Vanessa DiBernardo scored directly from a corner in the 54th minute and Debinha added a stoppage-time goal as the Kansas City Current won their first NWSL championship at Audi Field. Trinity Rodman pulled one back for Washington in the 98th minute but the Spirit lost a third straight final. Kansas City, the fourth seed, had beaten top-seeded Gotham in the semifinals.",
+   "source": "NBC News",
+   "url": "https://www.nbcnews.com/sports/soccer/kansas-city-current-win-2026-nwsl-championship-beat-washington-spirit-rcna610643",
+   "published": "2026-11-22T02:30:00+00:00",
+   "image": "images/nwsl.webp",
+   "added": "2026-11-22T08:10:00+01:00"
+  },
+  {
+   "slug": "man-city-held-fulham-four-games-without-win",
+   "section": "sports",
+   "title": "Manchester City held 1-1 by Fulham and now without a league win in four",
+   "summary": "Manchester City were held to a 1-1 draw by Fulham in the early kick-off on Saturday, leaving the champions without a Premier League win in four matches. It was the first Premier League Saturday after the international break, with seven games played. Leeds thrashed Chelsea 4-1 at Stamford Bridge and Arsenal came from behind to draw 2-2 at Newcastle later in the day.",
+   "source": "The Athletic",
+   "url": "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/XgcjO3hBj7Js/rCE91BeUYrfZ",
+   "published": "2026-11-21T19:45:00+00:00",
+   "image": "images/mancity.webp",
+   "added": "2026-11-22T08:10:00+01:00"
+  },
+  {
+   "slug": "guadagnino-american-psycho-not-happening",
+   "section": "entertainment",
+   "title": "Luca Guadagnino says his 'American Psycho' adaptation is not happening",
+   "summary": "The Oscar-nominated director confirmed on Deadline's Crew Call podcast that his Lionsgate adaptation of Bret Easton Ellis's novel is no longer moving forward. 'Scott Z. Burns wrote a fantastic script. Unfortunately for me, as we speak, it's not happening,' Guadagnino said. The project was first announced in October 2024 and had been the subject of a long casting search for the Patrick Bateman role.",
+   "source": "The Hollywood Reporter",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/luca-guadagnino-american-psycho-movie-not-moving-forward-1236760596",
+   "published": "2026-11-21T22:00:00+00:00",
+   "image": "images/guadagnino.webp",
+   "added": "2026-11-22T08:10:00+01:00"
+  },
+  {
+   "slug": "caa-lourd-urges-congress-no-fakes-act",
+   "section": "entertainment",
+   "title": "CAA's Bryan Lourd urges Congress to pass the NO FAKES Act on AI deepfakes",
+   "summary": "The Creative Artists Agency chief executive used a New York Times op-ed to press lawmakers to pass the NO FAKES Act, which would give people a federal right to control use of their likeness and voice. Lourd argued the bill has genuine bipartisan support and could clear Congress before the end of the year. The Senate Judiciary Committee approved it unanimously in June.",
+   "source": "Variety",
+   "url": "https://deadline.com/2026/11/bryan-lourd-ai-legislation-no-fakes-act-1237230979",
+   "published": "2026-11-21T21:00:00+00:00",
+   "image": "images/lourd.webp",
+   "added": "2026-11-22T08:10:00+01:00"
+  },
+  {
+   "slug": "caribbean-princess-gastrointestinal-outbreak-148-sick",
+   "section": "health",
+   "title": "Nearly 150 sickened by unknown stomach illness on Caribbean Princess",
+   "summary": "The US Centers for Disease Control and Prevention said 134 passengers and 14 crew members have reported vomiting and diarrhoea on the Caribbean Princess, which left Fort Lauderdale on 11 November for a 12-night Panama Canal voyage. The cause is not yet known and stool samples have been collected for testing. It is the fourth illness outbreak on a Princess ship this year, the most of any cruise line.",
+   "source": "NBC 6 South Florida",
+   "url": "https://www.nbcmiami.com/news/national-international/gastrointestinal-outbreak-aboard-caribbean-princess-cruise-ship/3889890",
+   "published": "2026-11-21T18:00:00+00:00",
+   "image": "images/princess.webp",
+   "added": "2026-11-22T08:10:00+01:00"
+  },
+  {
+   "slug": "fermi-pulsar-lattice-method-million-times-faster",
+   "section": "science",
+   "title": "Cryptography trick finds a hidden pulsar a million times faster",
+   "summary": "Researchers used 15 years of data from NASA's Fermi Gamma-ray Space Telescope and an algorithm borrowed from lattice cryptography to find PSR J1622-7204, an isolated pulsar spinning 261 times per second. The search took about ten hours of computing on a single standard processor core, roughly a millionth of the power earlier methods needed. The most sensitive previous search, which would have taken some 600 years, found nothing.",
+   "source": "NASA Science",
+   "url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery",
+   "published": "2026-11-20T15:00:00+00:00",
+   "image": "images/pulsar.webp",
+   "added": "2026-11-22T08:10:00+01:00"
   }
  ]
 }
