@@ -4806,7 +4806,9 @@
       "published": "2026-11-22T00:30:00+11:00",
       "added": "2026-11-22T05:07:07.931164+01:00",
       "image": "images/aukus-marles-rejects-cbo-submarine-report.webp",
-      "imageCredit": "Richard Marles portrait (Wikimedia Commons)"
+      "imageCredit": "Richard Marles portrait (Wikimedia Commons)",
+      "tweetId": "2125533084216951108",
+      "postedToX": true
     },
     {
       "slug": "france-sixth-weekend-living-cost-protests",
@@ -4930,7 +4932,9 @@
       "published": "2026-11-21T21:24:00+03:00",
       "added": "2026-11-22T05:07:07.931164+01:00",
       "image": "images/afcon-2027-six-host-cities-confirmed.webp",
-      "imageCredit": "Moi International Sports Centre, Kasarani (Wikimedia Commons)"
+      "imageCredit": "Moi International Sports Centre, Kasarani (Wikimedia Commons)",
+      "tweetId": "2125533102860562878",
+      "postedToX": true
     },
     {
       "slug": "gta-vi-3-79bn-day-one-sales-record",
@@ -4943,7 +4947,9 @@
       "published": "2026-11-20T17:00:00-05:00",
       "added": "2026-11-22T05:07:07.931164+01:00",
       "image": "images/gta-vi-3-79bn-day-one-sales-record.webp",
-      "imageCredit": "Grand Theft Auto VI official artwork (Rockstar Games)"
+      "imageCredit": "Grand Theft Auto VI official artwork (Rockstar Games)",
+      "tweetId": "2125533122993299812",
+      "postedToX": true
     },
     {
       "slug": "r21-malaria-seasonal-mass-vaccination-trial",
@@ -4956,7 +4962,9 @@
       "published": "2026-11-21T10:00:00-06:00",
       "added": "2026-11-22T05:07:07.931164+01:00",
       "image": "images/r21-malaria-seasonal-mass-vaccination-trial.webp",
-      "imageCredit": "Health worker prepares a vaccine (Reuters/CNN)"
+      "imageCredit": "Health worker prepares a vaccine (Reuters/CNN)",
+      "tweetId": "2125533151522922703",
+      "postedToX": true
     },
     {
       "slug": "bepicolombo-enters-orbit-around-mercury",
@@ -4969,7 +4977,9 @@
       "published": "2026-11-21T16:00:00+01:00",
       "added": "2026-11-22T05:07:07.931164+01:00",
       "image": "images/bepicolombo-enters-orbit-around-mercury.webp",
-      "imageCredit": "Mercury in false colour from MESSENGER (NASA)"
+      "imageCredit": "Mercury in false colour from MESSENGER (NASA)",
+      "tweetId": "2125533172209230025",
+      "postedToX": true
     },
     {
       "slug": "cop31-fossil-fuel-impasse-second-day-overtime",
@@ -4982,7 +4992,9 @@
       "image": "images/cop31.webp",
       "added": "2026-11-22T08:10:00+01:00",
       "igMediaId": "18001422537029872",
-      "postedToIG": true
+      "postedToIG": true,
+      "tweetId": "2125533192295792882",
+      "postedToX": true
     },
     {
       "slug": "el-chapo-isidro-captured-eleven-killed-sinaloa",
@@ -4993,7 +5005,9 @@
       "url": "https://www.aljazeera.com/news/2026/11/22/eleven-killed-in-burst-of-violence-during-mexican-cartel-leaders-capture",
       "published": "2026-11-22T03:34:00+00:00",
       "image": "images/cartel.webp",
-      "added": "2026-11-22T08:10:00+01:00"
+      "added": "2026-11-22T08:10:00+01:00",
+      "tweetId": "2125533233517392199",
+      "postedToX": true
     },
     {
       "slug": "fbi-ncic-database-suspected-breach-trump",
@@ -5004,7 +5018,9 @@
       "url": "https://www.aljazeera.com/news/2026/11/21/fbi-national-crime-database-suffers-suspected-breach-reports",
       "published": "2026-11-21T20:15:00+00:00",
       "image": "images/fbi.webp",
-      "added": "2026-11-22T08:10:00+01:00"
+      "added": "2026-11-22T08:10:00+01:00",
+      "tweetId": "2125533250303017149",
+      "postedToX": true
     },
     {
       "slug": "oyo-summit-tshisekedi-ruto-congo-kenya-rift",
@@ -5015,7 +5031,9 @@
       "url": "https://africa.dailynewsegypt.com/oyo-summit-tshisekedi-ruto",
       "published": "2026-11-22T06:00:00+00:00",
       "image": "images/oyo.webp",
-      "added": "2026-11-22T08:10:00+01:00"
+      "added": "2026-11-22T08:10:00+01:00",
+      "tweetId": "2125533267822563349",
+      "postedToX": true
     },
     {
       "slug": "tanzania-english-proficiency-index-africa-2026",
@@ -5026,7 +5044,9 @@
       "url": "https://www.instagram.com/p/DgCDs0-CArk",
       "published": "2026-11-22T05:30:00+07:00",
       "image": "images/tanzania.webp",
-      "added": "2026-11-22T08:10:00+01:00"
+      "added": "2026-11-22T08:10:00+01:00",
+      "tweetId": "2125533285820383697",
+      "postedToX": true
     },
     {
       "slug": "tinubu-guarantees-power-supply-leyland-yutong-ibadan",
@@ -5039,7 +5059,9 @@
       "image": "images/tinubu.webp",
       "added": "2026-11-22T08:10:00+01:00",
       "igMediaId": "17964597419997700",
-      "postedToIG": true
+      "postedToIG": true,
+      "tweetId": "2125533306213056652",
+      "postedToX": true
     },
     {
       "slug": "anthropic-81-billion-ipo-largest-in-history",
@@ -5050,7 +5072,9 @@
       "url": "https://www.businesstimes.com.sg/international/global/tech-in-asia/anthropics-after-party-south-east-asia-invited",
       "published": "2026-11-21T12:00:00+08:00",
       "image": "images/anthropic.webp",
-      "added": "2026-11-22T08:10:00+01:00"
+      "added": "2026-11-22T08:10:00+01:00",
+      "tweetId": "2125533365096914952",
+      "postedToX": true
     },
     {
       "slug": "nvidia-worst-week-23pc-one-trillion-wiped",
@@ -5061,7 +5085,9 @@
       "url": "https://www.cnbc.com/investingclub/2026/11/21/during-wall-streets-worst-week-in-over-a-year-we-put-money-to-work-what-were-buying.html",
       "published": "2026-11-21T14:22:00+00:00",
       "image": "images/nvidia.webp",
-      "added": "2026-11-22T08:10:00+01:00"
+      "added": "2026-11-22T08:10:00+01:00",
+      "tweetId": "2125533404200374297",
+      "postedToX": true
     },
     {
       "slug": "kansas-city-current-first-nwsl-title-spirit",
@@ -5074,7 +5100,9 @@
       "image": "images/nwsl.webp",
       "added": "2026-11-22T08:10:00+01:00",
       "igMediaId": "18103327103379373",
-      "postedToIG": true
+      "postedToIG": true,
+      "tweetId": "2125533426472112456",
+      "postedToX": true
     },
     {
       "slug": "man-city-held-fulham-four-games-without-win",
@@ -5085,7 +5113,9 @@
       "url": "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/XgcjO3hBj7Js/rCE91BeUYrfZ",
       "published": "2026-11-21T19:45:00+00:00",
       "image": "images/mancity.webp",
-      "added": "2026-11-22T08:10:00+01:00"
+      "added": "2026-11-22T08:10:00+01:00",
+      "tweetId": "2125533445476552838",
+      "postedToX": true
     },
     {
       "slug": "guadagnino-american-psycho-not-happening",
@@ -5096,7 +5126,9 @@
       "url": "https://www.hollywoodreporter.com/movies/movie-news/luca-guadagnino-american-psycho-movie-not-moving-forward-1236760596",
       "published": "2026-11-21T22:00:00+00:00",
       "image": "images/guadagnino.webp",
-      "added": "2026-11-22T08:10:00+01:00"
+      "added": "2026-11-22T08:10:00+01:00",
+      "tweetId": "2125533466221506913",
+      "postedToX": true
     },
     {
       "slug": "caa-lourd-urges-congress-no-fakes-act",
@@ -5107,7 +5139,9 @@
       "url": "https://deadline.com/2026/11/bryan-lourd-ai-legislation-no-fakes-act-1237230979",
       "published": "2026-11-21T21:00:00+00:00",
       "image": "images/lourd.webp",
-      "added": "2026-11-22T08:10:00+01:00"
+      "added": "2026-11-22T08:10:00+01:00",
+      "tweetId": "2125533486949822722",
+      "postedToX": true
     },
     {
       "slug": "caribbean-princess-gastrointestinal-outbreak-148-sick",
@@ -5118,7 +5152,9 @@
       "url": "https://www.nbcmiami.com/news/national-international/gastrointestinal-outbreak-aboard-caribbean-princess-cruise-ship/3889890",
       "published": "2026-11-21T18:00:00+00:00",
       "image": "images/princess.webp",
-      "added": "2026-11-22T08:10:00+01:00"
+      "added": "2026-11-22T08:10:00+01:00",
+      "tweetId": "2125533508177158187",
+      "postedToX": true
     },
     {
       "slug": "fermi-pulsar-lattice-method-million-times-faster",
@@ -5129,7 +5165,9 @@
       "url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery",
       "published": "2026-11-20T15:00:00+00:00",
       "image": "images/pulsar.webp",
-      "added": "2026-11-22T08:10:00+01:00"
+      "added": "2026-11-22T08:10:00+01:00",
+      "tweetId": "2125533544768246243",
+      "postedToX": true
     },
     {
       "slug": "moldova-finland-russia-airspace-violations",
@@ -5142,7 +5180,9 @@
       "image": "images/moldova-finland-russia-airspace-violations.webp",
       "added": "2026-11-22T10:10:00+01:00",
       "igMediaId": "17875101024642839",
-      "postedToIG": true
+      "postedToIG": true,
+      "tweetId": "2125533569472733209",
+      "postedToX": true
     },
     {
       "slug": "iran-araghchi-hormuz-conditions-us",
@@ -5153,7 +5193,9 @@
       "url": "https://www.aljazeera.com/news/2026/11/21/iran-says-held-talks-with-qatari-mediators-urges-us-to-accept-conditions",
       "published": "2026-11-21T16:00:00+00:00",
       "image": "images/iran-araghchi-hormuz-conditions-us.webp",
-      "added": "2026-11-22T10:10:00+01:00"
+      "added": "2026-11-22T10:10:00+01:00",
+      "tweetId": "2125533586719678874",
+      "postedToX": true
     },
     {
       "slug": "sudan-west-kordofan-rsf-civilians-displaced",
@@ -5166,7 +5208,9 @@
       "image": "images/sudan-west-kordofan-rsf-civilians-displaced.webp",
       "added": "2026-11-22T10:10:00+01:00",
       "igMediaId": "18042115904895816",
-      "postedToIG": true
+      "postedToIG": true,
+      "tweetId": "2125533610136453244",
+      "postedToX": true
     },
     {
       "slug": "south-africa-581-women-killed-three-months",
@@ -5177,7 +5221,9 @@
       "url": "https://www.newser.com/story/400370/nearly-600-women-killed-in-s-africa-in-3-months.html",
       "published": "2026-11-20T20:07:00+00:00",
       "image": "images/south-africa-581-women-killed-three-months.webp",
-      "added": "2026-11-22T10:10:00+01:00"
+      "added": "2026-11-22T10:10:00+01:00",
+      "tweetId": "2125533633985352160",
+      "postedToX": true
     },
     {
       "slug": "uganda-ebola-21-day-quarantine-34-districts",
@@ -5188,7 +5234,9 @@
       "url": "https://www.cidrap.umn.edu/ebola/uganda-south-sudan-intensify-efforts-keep-ebola-out-amid-burgeoning-dr-congo-outbreak",
       "published": "2026-11-20T20:00:00+00:00",
       "image": "images/uganda-ebola-21-day-quarantine-34-districts.webp",
-      "added": "2026-11-22T10:10:00+01:00"
+      "added": "2026-11-22T10:10:00+01:00",
+      "tweetId": "2125533653551710471",
+      "postedToX": true
     },
     {
       "slug": "odegbami-machete-attack-abeokuta",
@@ -5199,7 +5247,9 @@
       "url": "https://punchng.com/armed-men-attack-ex-super-eagles-captain-segun-odegbami-in-ogun-home",
       "published": "2026-11-20T15:38:00+00:00",
       "image": "images/odegbami-machete-attack-abeokuta.webp",
-      "added": "2026-11-22T10:10:00+01:00"
+      "added": "2026-11-22T10:10:00+01:00",
+      "tweetId": "2125533688691564877",
+      "postedToX": true
     },
     {
       "slug": "niger-state-luman-baare-village-head-killed",
@@ -5210,7 +5260,9 @@
       "url": "https://punchng.com/bandits-behead-niger-village-head-kill-five-others",
       "published": "2026-11-21T12:00:00+00:00",
       "image": "images/niger-state-luman-baare-village-head-killed.webp",
-      "added": "2026-11-22T10:10:00+01:00"
+      "added": "2026-11-22T10:10:00+01:00",
+      "tweetId": "2125533717762302227",
+      "postedToX": true
     },
     {
       "slug": "amazon-decart-75bn-ai-deal",
@@ -5221,7 +5273,9 @@
       "url": "https://seekingalpha.com/news/4675396-amazon-nears-75b-deal-buy-ai-start-up-decart",
       "published": "2026-11-21T18:04:00+00:00",
       "image": "images/amazon-decart-75bn-ai-deal.webp",
-      "added": "2026-11-22T10:10:00+01:00"
+      "added": "2026-11-22T10:10:00+01:00",
+      "tweetId": "2125533742450012335",
+      "postedToX": true
     },
     {
       "slug": "crowdstrike-zscaler-acquisition-talks",
@@ -5232,7 +5286,9 @@
       "url": "https://ae.marketscreener.com/news/crowdstrike-in-talks-to-acquire-zscaler-source-says-ce785ed3dc88f323",
       "published": "2026-11-21T12:00:00+00:00",
       "image": "images/crowdstrike-zscaler-acquisition-talks.webp",
-      "added": "2026-11-22T10:10:00+01:00"
+      "added": "2026-11-22T10:10:00+01:00",
+      "tweetId": "2125533764008689784",
+      "postedToX": true
     },
     {
       "slug": "meta-muse-ai-encrypted-signal-messages",
@@ -5243,7 +5299,9 @@
       "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says",
       "published": "2026-11-19T17:38:00+00:00",
       "image": "images/meta-muse-ai-encrypted-signal-messages.webp",
-      "added": "2026-11-22T10:10:00+01:00"
+      "added": "2026-11-22T10:10:00+01:00",
+      "tweetId": "2125533788520296707",
+      "postedToX": true
     },
     {
       "slug": "openrouter-providers-removed-prompt-exposure",
@@ -5254,7 +5312,9 @@
       "url": "https://www.unite.ai/openrouter-cuts-three-providers-after-ai-prompt-exposure-findings",
       "published": "2026-11-22T06:00:00+00:00",
       "image": "images/openrouter-providers-removed-prompt-exposure.webp",
-      "added": "2026-11-22T10:10:00+01:00"
+      "added": "2026-11-22T10:10:00+01:00",
+      "tweetId": "2125533813434442219",
+      "postedToX": true
     },
     {
       "slug": "rishabh-pant-century-india-new-zealand-test",
@@ -5267,7 +5327,9 @@
       "image": "images/rishabh-pant-century-india-new-zealand-test.webp",
       "added": "2026-11-22T10:10:00+01:00",
       "igMediaId": "17936100675411521",
-      "postedToIG": true
+      "postedToIG": true,
+      "tweetId": "2125533847777411450",
+      "postedToX": true
     },
     {
       "slug": "wisconsin-badgers-42-10-purdue-19th-straight",
@@ -5278,7 +5340,9 @@
       "url": "https://www.espn.com/college-football/recap/_/gameId/401858533",
       "published": "2026-11-21T23:00:00+00:00",
       "image": "images/wisconsin-badgers-42-10-purdue-19th-straight.webp",
-      "added": "2026-11-22T10:10:00+01:00"
+      "added": "2026-11-22T10:10:00+01:00",
+      "tweetId": "2125533874625167708",
+      "postedToX": true
     },
     {
       "slug": "caf-31m-profit-funding-increase",
@@ -5289,7 +5353,9 @@
       "url": "https://realnewsmagazine.net/caf-records-31-2m-profit-revenue-exceeds-284m",
       "published": "2026-11-21T10:00:00+00:00",
       "image": "images/caf-31m-profit-funding-increase.webp",
-      "added": "2026-11-22T10:10:00+01:00"
+      "added": "2026-11-22T10:10:00+01:00",
+      "tweetId": "2125533900029956224",
+      "postedToX": true
     },
     {
       "slug": "yellowjackets-final-season-premiere",
@@ -5300,7 +5366,9 @@
       "url": "https://variety.com/2026/shopping/news/how-to-watch-yellowjackets-season-4-online-streaming-1236954592",
       "published": "2026-11-20T16:00:00+00:00",
       "image": "images/yellowjackets-final-season-premiere.webp",
-      "added": "2026-11-22T10:10:00+01:00"
+      "added": "2026-11-22T10:10:00+01:00",
+      "tweetId": "2125533919466357221",
+      "postedToX": true
     },
     {
       "slug": "virginia-first-measles-death-2026",
@@ -5311,7 +5379,9 @@
       "url": "https://thehill.com/policy/healthcare/6234958-virginia-child-measles-death-elimination-status",
       "published": "2026-11-20T22:00:00+00:00",
       "image": "images/virginia-first-measles-death-2026.webp",
-      "added": "2026-11-22T10:10:00+01:00"
+      "added": "2026-11-22T10:10:00+01:00",
+      "tweetId": "2125533943030038867",
+      "postedToX": true
     },
     {
       "slug": "relativity-collapses-triple-bond-cbi",
